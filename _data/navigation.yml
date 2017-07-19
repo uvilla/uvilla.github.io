@@ -1,0 +1,17 @@
+docs_list_title: Menu 
+docs:
+
+- title: Home
+  url: index.html
+
+- title: Research
+  url: research.html
+
+- title: Publications
+  url: publications.html
+
+- title: Software
+  url: software.html
+
+- title: Contact
+  url: contact.html
