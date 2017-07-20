@@ -7,7 +7,7 @@ layout: default
 <div id="left" style="float: left; max-width: 40%; min-width: 150px;border: 10px"> 
     <img src="images/profile.jpg" />
 </div>
-<div id="right" style="float: right; width: 55%">
+<div id="right" style="float: right; width: 55%; min-width: 200px;">
 <h3>News:</h3>
 <ul>
 <li> July 20 - I'm co-organizing the 2018 Gene Golub SIAM Summer School, <a href="http://math.nyu.edu/~stadler/GGSS18">early announcement flier</a></li>
