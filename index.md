@@ -9,14 +9,10 @@ layout: default
 </div>
 <div id="right" style="float: right; max-width: 55%">
 <h3>News:</h3>
-<table style="width:100%">
-<tr>
-<th>July 20</th> <th> I'm co-organizing the 2018 Gene Golub SIAM Summer School, <br> <a href="http://math.nyu.edu/~stadler/GGSS18">early announcement flier</a></th>
-</tr>
-<tr>
-<th>June 28</th> <th> <a href="https://hippylib.github.io">hIPPYlib</a> 1.3.0 was released! </th>
-</tr>
-</table>
+<ul>
+<li>July 20 - I'm co-organizing the 2018 Gene Golub SIAM Summer School, <br> <a href="http://math.nyu.edu/~stadler/GGSS18">early announcement flier</li>
+<li>June 28 <a href="https://hippylib.github.io">hIPPYlib</a> 1.3.0 was released! </li>
+</ul>
 </div>
 </div>
 <div id="clearer" style="clear: both"> </div>
