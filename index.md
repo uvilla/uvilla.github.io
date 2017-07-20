@@ -7,7 +7,7 @@ layout: default
 <div id="left" style="float: left; max-width: 40%; border: 10px"> 
     <img src="images/profile.jpg" />
 </div>
-<div id="right" style="float: right; min-width: 55%">
+<div id="right" style="float: right; max-width: 55%">
 <h3>News:</h3>
 <table style="width:100%">
 <tr>
