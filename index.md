@@ -4,7 +4,7 @@ layout: default
 ---
 
 <div id="twosided">
-<div id="left" style="float: left; max-width: 40%; border: 10px"> 
+<div id="left" style="float: left; max-width: 40%; min-width: 150px;border: 10px"> 
     <img src="images/profile.jpg" />
 </div>
 <div id="right" style="float: right; width: 55%">
