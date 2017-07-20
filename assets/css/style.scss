@@ -25,25 +25,15 @@
   }
 }
 
-.container {
-  border: 2px dashed #444;
-  height: 125px;
-  text-align: justify;
-  -ms-text-justify: distribute-all-lines;
-  text-justify: distribute-all-lines;
+#ft_container {
+    display: flex;
+    justify-content: space-between;
 }
 
-.box,
-{
-  vertical-align: center;
-  display: inline-block;
-  *display: inline;
-  zoom: 1
+#ft_container div:first-child {
+    border-left: 0;
 }
 
-.stretch {
-  width: 100%;
-  display: inline-block;
-  font-size: 0;
-  line-height: 0
+#ft_container div:last-child {
+    border-right: 0;
 }
