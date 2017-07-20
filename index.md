@@ -3,7 +3,7 @@ title: Home
 layout: default
 ---
 
-<img align="left" src="images/profile.jpg" width="45%"></img>
+<img align="left" src="images/profile.jpg" width="40%"/>
 I am currently a Research Associate at [The Institute for Computational Engineering and Sciences (ICES)](http://ices.utexas.edu/) of [The University of Texas at Austin](http://utexas.edu/).
 I joined ICES in March 2015 working with [Prof. Omar Ghattas](http://users.ices.utexas.edu/~omar) on scalable numerical methods for the solution of Bayesian inverse problems, uncertainty quantification and propagation.
 From February 2013 to February 2015, I was a postdoctoral researcher at the [Center for Applied Scientific Computing (CASC)](http://computation.llnl.gov/casc/) of
