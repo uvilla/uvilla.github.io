@@ -11,3 +11,7 @@ In addition, I am interested in applying multilevel techniques to the solution o
 including Multilevel Monte-Carlo and hierarchical sampling of spatially correlated random fields.
 
 Find me on: [Google Scholar](https://scholar.google.com/citations?user=lELCubQAAAAJ&hl=en), [Academia](https://utexas.academia.edu/UmbertoVilla), or [Research Gate](https://www.researchgate.net/profile/Umberto_Villa).
+
+| ![Two-phases flow](images/research/two_phases.png) | ![AMGe](images/research/amge.png) | ![Random field](images/research/random_field.png) |
+| :---: | :---: | :---:|
+|Two-phases porous media flow | Hierarchy of agglomerated meshes for element-based AMG | Gaussian random field with prescribed covariance kernel |
