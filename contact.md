@@ -1,5 +1,5 @@
 ---
-title: Contant
+title: Contact
 layout: picture_left
 ---
 
