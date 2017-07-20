@@ -28,6 +28,7 @@
 #ft_container {
     display: flex;
     justify-content: space-between;
+    vertical-align:middle;
 }
 
 #ft_container div:first-child {
