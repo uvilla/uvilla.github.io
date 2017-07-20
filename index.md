@@ -4,15 +4,15 @@ layout: default
 ---
 
 <div id="twosided">
-  <div id="left" style="float: left; max-width: 40%; border: 10px"> 
+<div id="left" style="float: left; max-width: 40%; border: 10px"> 
     <img src="images/profile.jpg" />
-  </div>
-  <div id="right" style="float: right; min-width: 55%">
-      ### News:
-      | July 20 | I'm co-organizing the 2018 Gene Golub SIAM Summer School, <br> [early announcement flier](http://math.nyu.edu/~stadler/GGSS18) |
-      | --- | --- |
-      | June 28 | [hIPPYlib](https://hippylib.github.io) 1.3.0 was released! |
-  </div>
+</div>
+<div id="right" style="float: right; min-width: 55%">
+### News:
+| July 20 | I'm co-organizing the 2018 Gene Golub SIAM Summer School, <br> [early announcement flier](http://math.nyu.edu/~stadler/GGSS18) |
+| --- | --- |
+| June 28 | [hIPPYlib](https://hippylib.github.io) 1.3.0 was released! |
+</div>
 </div>
 <div id="clearer" style="clear: both"> </div>
 
