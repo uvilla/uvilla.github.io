@@ -1,3 +1,8 @@
+---
+title: Contant
+layout: picture_left
+---
+
 EMAIL ADDRESS<br>
 uvilla at ices dot utexas dot edu
 
