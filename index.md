@@ -4,10 +4,10 @@ layout: default
 ---
 
 <div id="twosided">
-<div id="left" style="float: left; max-width: 40%;border: 10px"> 
+<div id="left" style="float: left; max-width: 30%;border: 10px"> 
     <img src="images/profile.jpg" />
 </div>
-<div id="right" style="float: right; width: 55%; vertical-align: middle;">
+<div id="right" style="float: right; width: 65%; vertical-align: middle;">
 <p> Umberto Villa <br> Research Associate</p>
 <p> Center for Computational Geophysics and Optimization <br> (Director: O. Ghattas) </p>
 <p> <a href="files/UmbertoVilla_cv.pdf">Curriculum vitae </a> </p>
