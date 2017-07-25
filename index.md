@@ -24,7 +24,7 @@ inverse problems, and numerical analysis) from [Emory University](http://emory.e
 ([Dept. of Mathematics and Computer Science](http://www.mathcs.emory.edu/)) serving as my principal advisor.
 
 ### News:
-
- | July 20 | I'm co-organizing the 2018 Gene Golub SIAM Summer School; [early announcement flier](http://math.nyu.edu/~stadler/GGSS18). |
- | --- | --- |
- | June 28 | [hIPPYlib](https://hippylib.github.io) 1.3.0 was released! |
+|         |       |
+| :---:   | :---  |
+| July 20 | I'm co-organizing the 2018 Gene Golub SIAM Summer School; [early announcement flier](http://math.nyu.edu/~stadler/GGSS18). |
+| June 28 | [hIPPYlib](https://hippylib.github.io) 1.3.0 was released! |
