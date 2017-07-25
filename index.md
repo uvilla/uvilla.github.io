@@ -7,12 +7,10 @@ layout: default
 <div id="left" style="float: left; max-width: 40%; min-width: 150px;border: 10px"> 
     <img src="images/profile.jpg" />
 </div>
-<div id="right" style="float: right; width: 55%; min-width: 300px;">
-<h3>News:</h3>
-<ul>
-<li> July 20 - I'm co-organizing the 2018 Gene Golub SIAM Summer School (<a href="http://math.nyu.edu/~stadler/GGSS18">early announcement flier)</a></li>
-<li> June 28 - <a href="https://hippylib.github.io">hIPPYlib</a> 1.3.0 was released! </li>
-</ul>
+<div id="right" style="float: right; width: 55%">
+<p> Umberto Villa <br> Research Associate</p>
+<p> Center for Computational Geophysics and Optimization <br> (Director: O. Ghattas) </p>
+<p> <a href="files/UmbertoVilla_cv.pdf">Curriculum vitae </a> </p>
 </div>
 </div>
 <div id="clearer" style="clear: both"> </div>
@@ -25,3 +23,7 @@ In December 2012, I obtained my Ph.D. in Mathematics with specialization in Comp
 inverse problems, and numerical analysis) from [Emory University](http://emory.edu/), with [Prof. Alessandro Veneziani](http://mathcs.emory.edu/~ale)
 ([Dept. of Mathematics and Computer Science](http://www.mathcs.emory.edu/)) serving as my principal advisor.
 
+### News:
+ - July 20 - I'm co-organizing the 2018 Gene Golub SIAM Summer School; [early announcement flier](http://math.nyu.edu/~stadler/GGSS18)
+ - June 28 - [hIPPYlib](https://hippylib.github.io) 1.3.0 was released!
+</ul>
