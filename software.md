@@ -6,7 +6,7 @@ for the discretization of the PDE and on [PETSc](https://www.mcs.anl.gov/petsc/)
 and solvers. (UT Texas, UC Merced - lead developers: U. Villa, [N. Petra](http://faculty.ucmerced.edu/npetra/index.html))
 
 - [ParELAG](http://github.com/LLNL/parelag) implements upscaling and algebraic multigrid techniques for the efficient
-solution of the algebraic linear system arising from mixed finite element discretization of saddle point problems (Original Author: U. Villa, Developers: A. Barker, T. Benson, C. Lee).
+solution of the algebraic linear system arising from mixed finite element discretization of saddle point problems (Original author: U. Villa, Developers: A. Barker, T. Benson, C. Lee, Project PI: P. Vassilevski).
 
 - [MFEM](http://mfem.org/) is a lightweight, general, scalable C++ library for finite element methods.
 It relies on [HYPRE](http://acts.nersc.gov/hypre/) for fast and scalable parallel linear solvers and preconditioners
