@@ -1,3 +1,8 @@
+---
+title: Research 
+layout: default
+---
+
 ## Research highlights
 My interests are directed towards mathematical modeling of physical phenomena and numerical simulations with relevance to engineering
 based problems.

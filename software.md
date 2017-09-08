@@ -1,3 +1,8 @@
+---
+title: Software
+layout: default
+---
+
 Software development is an important component of my research and I am involved in several open source projects.
 
 - [hIPPYlib](https://hippylib.github.io) implements state-of-the-art scalable algorithms for PDE-based deterministic
