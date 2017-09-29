@@ -13,7 +13,7 @@
   background-position: center; 
 
   @include large {
-    padding: 5rem 6rem;
+    padding: 3rem 6rem;
   }
 
   @include medium {
@@ -24,6 +24,122 @@
     padding: 2rem 1rem;
   }
 }
+
+.project-tagline {
+  margin-bottom: 1rem;
+  font-weight: normal;
+  opacity: 0.9;
+
+  @include large {
+    font-size: 1.25rem;
+  }
+
+  @include medium {
+    font-size: 1.15rem;
+  }
+
+  @include small {
+    font-size: 1rem;
+  }
+}
+
+$base-line-height: 1.5 !default;
+$base-font-size: 16px !default;
+$background-color: #fdfdfd !default;
+$grey-color: #828282 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$spacing-unit: 30px !default;
+
+.site-nav {
+  float: left;
+  line-height: $base-line-height * $base-font-size * 1.25;
+  font-weight: bold;
+  
+  .nav-trigger {
+      display: none;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    color: $header-heading-color;
+    line-height: $base-line-height;
+    text-align: center;
+
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+}
+
+  @include large {
+      width: 100%;
+      margin: 0 auto;
+  }
+  
+  @include medium {
+      width: 100%;
+      margin: 0 auto;
+  }
+
+  @include small {
+    position: absolute;
+    top: 8px;
+    right: $spacing-unit / 2;
+    background-color: $background-color;
+    border: 1px solid $grey-color-light;
+    border-radius: 5px;
+    text-align: right;
+
+    label[for="nav-trigger"] {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 36px;
+      z-index: 2;
+      cursor: pointer;
+    }
+
+    .menu-icon {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 10px;
+      text-align: center;
+
+      > svg path {
+        fill: $section-headings-color;
+      }
+    }
+
+    input ~ .trigger {
+      clear: both;
+      display: none;
+    }
+
+    input:checked ~ .trigger {
+      display: block;
+      padding-bottom: 5px;
+    }
+
+    .page-link {
+      display: block;
+      padding: 5px 10px;
+      color: $section-headings-color;
+      text-align: right;
+
+      &:not(:last-child) {
+        margin-right: 0;
+      }
+      margin-left: 20px;
+    }
+  }
+}
+
 
 #ft_container {
     display: flex;
