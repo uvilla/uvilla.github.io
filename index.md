@@ -25,5 +25,8 @@ inverse problems, and numerical analysis) from [Emory University](http://emory.e
 
 ### News:
 
+- **Nov 11**: Applications are now open for the 2018 Gene Golub SIAM Summer School on [*Inverse Problems: Systematic Integration of Data with Models under Uncertainty*](http://g2s3.com).
+- **Nov 11**: [hIPPYlib](https://hippylib.github.io) 1.4.0 was released!
+- **Oct 30**: New paper submitted: [*Multifidelity probability estimation via fusion of estimators*](http://web.mit.edu/bokramer/www/img/pubs/KramerMarquesPeherstorferVillaWillcox17-fusedIS-TR.pdf).
 - **July 20**: I'm co-organizing the 2018 Gene Golub SIAM Summer School; [early announcement flier](http://math.nyu.edu/~stadler/GGSS18).
 - **June 28**: [hIPPYlib](https://hippylib.github.io) 1.3.0 was released!
