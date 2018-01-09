@@ -25,8 +25,8 @@ inverse problems, and numerical analysis) from [Emory University](http://emory.e
 
 ### News:
 
-- **Jan 9**: I was invited to join the editorial board of [ Numerical Linear Algebra with Applications](http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1099-1506).
-- **Jan 9**: I am organing a minisymposium on [*Model inadequacy*](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=63800) at SIAM UQ 18.
+- **Jan 9**: I was invited to join the editorial board of [Numerical Linear Algebra with Applications](http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1099-1506).
+- **Jan 9**: I am organing a minisymposium on [*Model Inadequacy*](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=63800) at SIAM UQ 18.
 - **Jan 9**: I will be presenting my work on [*Optimal Experimental Design*](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=63734) at SIAM UQ 18.
 - **Nov 11**: Applications are now open for the 2018 Gene Golub SIAM Summer School on [*Inverse Problems: Systematic Integration of Data with Models under Uncertainty*](http://g2s3.com).
 - **Nov 11**: [hIPPYlib](https://hippylib.github.io) 1.4.0 was released!
