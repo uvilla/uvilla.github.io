@@ -25,6 +25,7 @@ inverse problems, and numerical analysis) from [Emory University](http://emory.e
 
 ### News:
 
+- **Apr 13**: New paper uploaded: [*Taylor approximation and variance reduction for PDE-constrained optimal control under uncertainty*](https://arxiv.org/abs/1804.04301)
 - **Jan 25**: Application deadline for the 2018 Gene Golub SIAM Summer School on [*Inverse Problems: Systematic Integration of Data with Models under Uncertainty*](http://g2s3.com) is approaching (Feb 1).
 - **Jan 24**: [hIPPYlib](https://hippylib.github.io) 1.5.0 has been released!
 - **Jan 9**: I was invited to join the editorial board of [Numerical Linear Algebra with Applications](http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1099-1506).
