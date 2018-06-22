@@ -25,6 +25,7 @@ inverse problems, and numerical analysis) from [Emory University](http://emory.e
 
 ### News:
 
+- **June 17**: I'll be teaching inverse problems at the 2018 Gene Golub Summer School [G2S3](http://g2s3.com)
 - **June 15**: [hIPPYlib](https://hippylib.github.io) 2.0.0 has been released!
 - **May 16**: [hIPPYlib](https://hippylib.github.io) 1.6.0 has been released!
 - **Apr 13**: New paper uploaded: [*Taylor approximation and variance reduction for PDE-constrained optimal control under uncertainty*](https://arxiv.org/abs/1804.04301)
