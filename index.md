@@ -25,6 +25,7 @@ inverse problems, and numerical analysis) from [Emory University](http://emory.e
 
 ### News:
 
+- **July 18**: [hIPPYlib](https://hippylib.github.io) 2.1.0 has been released!
 - **June 30**: The 2018 G2S3 was a blast! It was a pleasure and an honor teaching inverse problems to 44 talented students from all over the world. Thank you!
 - **June 17**: I'll be teaching inverse problems at the 2018 Gene Golub Summer School [G2S3](http://g2s3.com)
 - **June 15**: [hIPPYlib](https://hippylib.github.io) 2.0.0 has been released!
