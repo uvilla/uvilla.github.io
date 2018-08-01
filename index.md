@@ -8,23 +8,24 @@ layout: default
     <img src="images/profile.jpg" />
 </div>
 <div id="right" style="float: right; width: 65%; vertical-align: middle;">
-<p> Umberto Villa <br> Research Associate</p>
-<p> Center for Computational Geophysics and Optimization <br> (Director: O. Ghattas) </p>
+<p> Umberto Villa <br> Research Assistant Professor</p>
+<p> <a href="https://ese.wustl.edu/Pages/default.aspx" target="blank">Electrical and Systems Engeneering (ESE)</a></p>
+<p> <a href="https://wustl.edu" target="blank">Washington University in St. Louis</a></p>
 <p> <a href="files/UmbertoVilla_cv.pdf">Curriculum vitae </a> </p>
 </div>
 </div>
 <div id="clearer" style="clear: both"> </div>
 
-I am currently a Research Associate at [The Institute for Computational Engineering and Sciences (ICES)](http://ices.utexas.edu/) of [The University of Texas at Austin](http://utexas.edu/).
-I joined ICES in March 2015 working with [Prof. Omar Ghattas](http://users.ices.utexas.edu/~omar) on scalable numerical methods for the solution of Bayesian inverse problems, uncertainty quantification and propagation.<br>
-From February 2013 to February 2015, I was a postdoctoral researcher at the [Center for Applied Scientific Computing (CASC)](http://computation.llnl.gov/casc/) of
-[Lawrence Livermore National Laboratory (LLNL)](https://llnl.gov/), working with [Dr. Panayot Vassilevski](http://people.llnl.gov/vassilevski1) on algebraic multigrid and numerical upscaling techniques with applications to flow in porous media.<br>
+I am a Research Assistant Professor of [Electrical and Systems Engeneering (ESE)](https://ese.wustl.edu/Pages/default.aspx) at [Washington University in St. Louis](https://wustl.edu), and a member of the [Computational Imaging Science Laboratory](https://anastasiolab.wustl.edu/) lead by [Professor Anastasio](https://engineering.wustl.edu/Profiles/Pages/Mark-Anastasio.aspx). <br>
+Prior to joining Washington University, I was a Research Associate at The Institute for [Computational Engineering and Sciences (ICES)](http://ices.utexas.edu/) of [The University of Texas at Austin](http://utexas.edu/) (March 2015-July 2018), working with [Prof. Omar Ghattas](http://users.ices.utexas.edu/~omar) on scalable numerical methods for the solution of Bayesian inverse problems, uncertainty quantification and propagation, optimal experimental design, and optimization under uncertainty.<br>
+I completed my postdoctoral training at the [Center for Applied Scientific Computing (CASC)](http://computation.llnl.gov/casc/) of [Lawrence Livermore National Laboratory (LLNL)](https://llnl.gov/) (February 2013 - February 2015), working with [Dr. Panayot Vassilevski](http://people.llnl.gov/vassilevski1) on algebraic multigrid and numerical upscaling techniques with applications to flow in porous media.<br>
 In December 2012, I obtained my Ph.D. in Mathematics with specialization in Computational Mathematics (high performance computing, computational fluid dynamics, image processing,
 inverse problems, and numerical analysis) from [Emory University](http://emory.edu/), with [Prof. Alessandro Veneziani](http://mathcs.emory.edu/~ale)
 ([Dept. of Mathematics and Computer Science](http://www.mathcs.emory.edu/)) serving as my principal advisor.
 
 ### News:
 
+- **Aug 1**: I joined the *School of Engineering and Applied Sciences* at Washington University as Research Assistant Professor
 - **July 18**: [hIPPYlib](https://hippylib.github.io) 2.1.0 has been released!
 - **June 30**: The 2018 G2S3 was a blast! It was a pleasure and an honor teaching inverse problems to 44 talented students from all over the world. Thank you!
 - **June 17**: I'll be teaching inverse problems at the 2018 Gene Golub Summer School [G2S3](http://g2s3.com)
