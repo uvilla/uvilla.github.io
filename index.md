@@ -9,8 +9,8 @@ layout: default
 </div>
 <div id="right" style="float: right; width: 65%; vertical-align: middle;">
 <p> Umberto Villa <br> Research Assistant Professor</p>
-<p> <a href="https://ese.wustl.edu/Pages/default.aspx" target="blank">Electrical and Systems Engeneering (ESE)</a></p>
-<p> <a href="https://wustl.edu" target="blank">Washington University in St. Louis</a></p>
+<p> <a href="https://ese.wustl.edu/Pages/default.aspx" target="blank">Electrical and Systems Engeneering (ESE)</a><br>
+<a href="https://wustl.edu" target="blank">Washington University in St. Louis</a></p>
 <p> <a href="https://engineering.wustl.edu/Profiles/Pages/Umberto-Villa.aspx">Biography </a> </p>
 <p> <a href="files/UmbertoVilla_cv.pdf">Curriculum vitae </a> </p>
 </div>
