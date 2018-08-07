@@ -8,7 +8,7 @@ layout: default
     <img src="images/profile.jpg" />
 </div>
 <div id="right" style="float: right; width: 65%; vertical-align: middle;">
-<p> Umberto Villa <br> Research Assistant Professor</p>
+<p> <b>Umberto Villa</b> <br> <em>Research Assistant Professor</em> </p>
 <p> <a href="https://ese.wustl.edu/Pages/default.aspx" target="blank">Electrical and Systems Engeneering (ESE)</a><br>
 <a href="https://wustl.edu" target="blank">Washington University in St. Louis</a></p>
 <p> <a href="https://engineering.wustl.edu/Profiles/Pages/Umberto-Villa.aspx">Biography </a> </p>
@@ -17,7 +17,7 @@ layout: default
 </div>
 <div id="clearer" style="clear: both"> </div>
 
-I am a Research Assistant Professor of [Electrical and Systems Engeneering (ESE)](https://ese.wustl.edu/Pages/default.aspx) at [Washington University in St. Louis](https://wustl.edu), and a member of the [Computational Imaging Science Laboratory](https://anastasiolab.wustl.edu/) lead by [Professor Anastasio](https://engineering.wustl.edu/Profiles/Pages/Mark-Anastasio.aspx). <br>
+I am a Research Assistant Professor of [Electrical and Systems Engeneering (ESE)](https://ese.wustl.edu/Pages/default.aspx) at [Washington University in St. Louis](https://wustl.edu), and a member of the [Computational Imaging Science Laboratory](https://anastasiolab.wustl.edu/) led by [Professor Anastasio](https://engineering.wustl.edu/Profiles/Pages/Mark-Anastasio.aspx). <br>
 Prior to joining Washington University, I was a Research Associate at The Institute for [Computational Engineering and Sciences (ICES)](http://ices.utexas.edu/) of [The University of Texas at Austin](http://utexas.edu/) (March 2015-July 2018), working with [Prof. Omar Ghattas](http://users.ices.utexas.edu/~omar) on scalable numerical methods for the solution of Bayesian inverse problems, uncertainty quantification and propagation, optimal experimental design, and optimization under uncertainty.<br>
 I completed my postdoctoral training at the [Center for Applied Scientific Computing (CASC)](http://computation.llnl.gov/casc/) of [Lawrence Livermore National Laboratory (LLNL)](https://llnl.gov/) (February 2013 - February 2015), working with [Dr. Panayot Vassilevski](http://people.llnl.gov/vassilevski1) on algebraic multigrid and numerical upscaling techniques with applications to flow in porous media.<br>
 In December 2012, I obtained my Ph.D. in Mathematics with specialization in Computational Mathematics (high performance computing, computational fluid dynamics, image processing,
