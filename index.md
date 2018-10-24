@@ -26,6 +26,7 @@ inverse problems, and numerical analysis) from [Emory University](http://emory.e
 
 ### News:
 
+- **Oct 23**: The [hIPPYlib](https://hippylib.github.io) project has been published in the [Journal of Open Source Software](http://joss.theoj.org/) [[DOI](https://doi.org/10.21105/joss.00940)].
 - **Aug 1**: I joined the *School of Engineering and Applied Sciences* at Washington University as Research Assistant Professor
 - **July 18**: [hIPPYlib](https://hippylib.github.io) 2.1.0 has been released!
 - **June 30**: The 2018 G2S3 was a blast! It was a pleasure and an honor teaching inverse problems to 44 talented students from all over the world. Thank you!
