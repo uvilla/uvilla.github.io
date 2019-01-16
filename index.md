@@ -26,6 +26,14 @@ inverse problems, and numerical analysis) from [Emory University](http://emory.e
 
 ### News:
 
+- **Feb 28**: I'll present my work on scalable algorithms for [*Bayesian Optimal Experimental Design*](http://meetings.siam.org/sess/dsp_talk.cfm?p=96535) at the 2019 SIAM CSE Conference in Spokane, WA.
+- **Feb 28**: I'm chairing a minisymposium on [*Bayesian Optimal Experimental Design*](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=66056) at the 2019 SIAM CSE Conference in Spokane, WA.
+- **Jan 28**: I'm giving a seminar in the Math Department at WAshU on [*Learning from data through the lens of mathematical models*](https://math.wustl.edu/events/analysis-seminar-learning-data-through-lens-mathematical-models-gentle-introduction-bayesian?d=2019-01-28)
+- **Jan 24**: I'm giving a seminar in my department on [*Large Scale Inverse Problems and Uncertainty Quantification: Computational Tools and Imaging Applications*](https://engineering.wustl.edu/Events/Documents/Umberto%20Villa%20Seminar%201.24.19.pdf)
+- **Jan 14**: I'll be teaching *Computational Methods for Imaging Science*, one of the core curriculum courses in the Imaging Science Ph.D. program at WashU.
+---
+### 2018
+- **Dec 12**: [hIPPYlib](https://hippylib.github.io) 2.2.0 has been released! It is now available as a [pip package](https://pypi.org/project/hippylib/2.2.0/).
 - **Oct 23**: The [hIPPYlib](https://hippylib.github.io) project has been published in the [Journal of Open Source Software](http://joss.theoj.org/) [[DOI](https://doi.org/10.21105/joss.00940)].
 - **Aug 1**: I joined the *School of Engineering and Applied Sciences* at Washington University as Research Assistant Professor
 - **July 18**: [hIPPYlib](https://hippylib.github.io) 2.1.0 has been released!
