@@ -28,7 +28,7 @@ inverse problems, and numerical analysis) from [Emory University](http://emory.e
 
 - **Feb 28**: I'll present my work on scalable algorithms for [*Bayesian Optimal Experimental Design*](http://meetings.siam.org/sess/dsp_talk.cfm?p=96535) at the 2019 SIAM CSE Conference in Spokane, WA.
 - **Feb 28**: I'm chairing a minisymposium on [*Bayesian Optimal Experimental Design*](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=66056) at the 2019 SIAM CSE Conference in Spokane, WA.
-- **Jan 28**: Here's the [SIAM news article](https://sinews.siam.org/Details-Page/students-tackle-bayesian-inverse-problems-in-the-colorado-rockies) with our reflections on the 2018 Gene Golub Summer School that our team organized last summer in Breckenbridge, Colorado.
+- **Jan 28**: O. Ghattas, Y. Marzouk, M. Parno, N. Petra, G. Stadler, and I share our gratifying experience in organizing and teaching the 2018 Gene Golub Summer School as a [SIAM news article](https://sinews.siam.org/Details-Page/students-tackle-bayesian-inverse-problems-in-the-colorado-rockies).
 - **Jan 28**: I'm giving a seminar in the Math Department at WAshU on [*Learning from data through the lens of mathematical models*](https://math.wustl.edu/events/analysis-seminar-learning-data-through-lens-mathematical-models-gentle-introduction-bayesian?d=2019-01-28)
 - **Jan 24**: I'm giving a seminar in my department on [*Large Scale Inverse Problems and Uncertainty Quantification: Computational Tools and Imaging Applications*](https://engineering.wustl.edu/Events/Documents/Umberto%20Villa%20Seminar%201.24.19.pdf)
 - **Jan 14**: I'll be teaching *Computational Methods for Imaging Science*, one of the core curriculum courses in the Imaging Science Ph.D. program at WashU.
