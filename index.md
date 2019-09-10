@@ -26,6 +26,8 @@ inverse problems, and numerical analysis) from [Emory University](http://emory.e
 
 ### News:
 
+- **Sept 9**: New manuscript [*hIPPYlib: An Extensible Software Framework for Large-Scale Inverse Problems Governed by PDEs; Part I: Deterministic Inversion and Linearized Bayesian Inference*](https://arxiv.org/abs/1909.03948) uploaded on arXiv. Download the companion release of `hIPPYlib` version 2.3.0 [here](https://zenodo.org/record/3401577/files/hippylib/hippylib-2.3.0.zip?download=1).
+- **July 12**: I'll be presenting my work title *Scalable optimal experimental design for large scale non-linear Bayesian inverse problems* at the AIP conference in Grenoble France.
 - **Feb 28**: I'll present my work on scalable algorithms for [*Bayesian Optimal Experimental Design*](http://meetings.siam.org/sess/dsp_talk.cfm?p=96535) at the 2019 SIAM CSE Conference in Spokane, WA.
 - **Feb 28**: I'm chairing a minisymposium on [*Bayesian Optimal Experimental Design*](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=66056) at the 2019 SIAM CSE Conference in Spokane, WA.
 - **Jan 28**: O. Ghattas, Y. Marzouk, M. Parno, N. Petra, G. Stadler, and I share our gratifying experience in organizing and teaching the 2018 Gene Golub Summer School as a [SIAM news article](https://sinews.siam.org/Details-Page/students-tackle-bayesian-inverse-problems-in-the-colorado-rockies).
