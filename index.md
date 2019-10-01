@@ -17,7 +17,7 @@ layout: default
 </div>
 <div id="clearer" style="clear: both"> </div>
 
-I am a Research Assistant Professor of [Electrical and Systems Engeneering (ESE)](https://ese.wustl.edu/Pages/default.aspx) at [Washington University in St. Louis](https://wustl.edu), and a member of the [Computational Imaging Science Laboratory](https://anastasiolab.wustl.edu/) led by [Professor Anastasio](https://engineering.wustl.edu/Profiles/Pages/Mark-Anastasio.aspx). <br>
+I am a Research Assistant Professor of [Electrical and Systems Engeneering (ESE)](https://ese.wustl.edu/Pages/default.aspx) at [Washington University in St. Louis](https://wustl.edu), and member of the [PhD in Imaging Science Faculty](https://engineering.wustl.edu/departments-faculty/interdisciplinary-degree-programs/imaging-science/Pages/default.aspx).<br>
 Prior to joining Washington University, I was a Research Associate at The Institute for [Computational Engineering and Sciences (ICES)](http://ices.utexas.edu/) of [The University of Texas at Austin](http://utexas.edu/) (March 2015-July 2018), working with [Prof. Omar Ghattas](http://users.ices.utexas.edu/~omar) on scalable numerical methods for the solution of Bayesian inverse problems, uncertainty quantification and propagation, optimal experimental design, and optimization under uncertainty.<br>
 I completed my postdoctoral training at the [Center for Applied Scientific Computing (CASC)](http://computation.llnl.gov/casc/) of [Lawrence Livermore National Laboratory (LLNL)](https://llnl.gov/) (February 2013 - February 2015), working with [Dr. Panayot Vassilevski](http://people.llnl.gov/vassilevski1) on algebraic multigrid and numerical upscaling techniques with applications to flow in porous media.<br>
 In December 2012, I obtained my Ph.D. in Mathematics with specialization in Computational Mathematics (high performance computing, computational fluid dynamics, image processing,
@@ -26,6 +26,7 @@ inverse problems, and numerical analysis) from [Emory University](http://emory.e
 
 ### News:
 
+- **Oct 13**: I'll talking about *Bayesian Inference of Fault Properties in Two-phase Porous Media Flow* at the 56th Annual Meeting of he Society of Engineering Science here at WashU.
 - **Sept 9**: New manuscript [*hIPPYlib: An Extensible Software Framework for Large-Scale Inverse Problems Governed by PDEs; Part I: Deterministic Inversion and Linearized Bayesian Inference*](https://arxiv.org/abs/1909.03948) uploaded on arXiv. Download the companion release of `hIPPYlib` version 2.3.0 [here](https://zenodo.org/record/3401577/files/hippylib/hippylib-2.3.0.zip?download=1).
 - **July 12**: I'll be presenting my work title *Scalable optimal experimental design for large scale non-linear Bayesian inverse problems* at the AIP conference in Grenoble France.
 - **Feb 28**: I'll present my work on scalable algorithms for [*Bayesian Optimal Experimental Design*](http://meetings.siam.org/sess/dsp_talk.cfm?p=96535) at the 2019 SIAM CSE Conference in Spokane, WA.
