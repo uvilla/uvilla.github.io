@@ -7,7 +7,7 @@ _**Email address**_<br>
 uvilla at wustl dot edu
 
 _**Office**_<br>
-Room 2027, Brauer Hall
+Room 3156, Green Hall
 
 _**Phone**_<br>
 314-935-4777
