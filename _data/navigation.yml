@@ -12,6 +12,9 @@ docs:
 
 - title: Software
   url: software.html
+  
+- title: Available Projects
+  url: available_projects.html
 
 - title: Contact
   url: contact.html
