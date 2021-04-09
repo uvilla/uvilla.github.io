@@ -3,8 +3,11 @@ title: Mentoring
 layout: default
 ---
 
-### Washington University in St. Louis
-- Luke Lozenski: Summer 2018 undergraduate research: Estimating chromophore concentration from photoacoustic measurements
+### Current students
+- Luke Lozenski: 2020-, Ph.D. student in [System Science and Mathematics](https://ese.wustl.edu/academics/graduate-programs/doctoral/PhD-in-Systems-Science-Mathematics.html)
+- Peijie Qiu: 2020-, MS student in [Computer Science](https://cse.wustl.edu/academics/graduate/MS-in-Computer-Science.html)
+
+### Rotation projects supervised at Washington University in St. Louis
 - Argho Dattas: Fall 2018 undergraduate research (co-supervised with Dr. Kamilov): *Proximal Newton-type Methods*
 - Tao Ge: Fall 2018 ESE rotation project (co-supervised with Dr. Kamilov): *Proximal Newton Methods for X-Ray Imaging with Non-Smooth Regularization*
 
