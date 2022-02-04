@@ -7,7 +7,7 @@ layout: default
 - Luke Lozenski: 2020-, Ph.D. student in [System Science and Mathematics](https://ese.wustl.edu/academics/graduate-programs/doctoral/PhD-in-Systems-Science-Mathematics.html): *Model-based and learning image reconstruction methods for photoacoustic tomography*
 
 ### Past students
-- Peijie Qiu (Master thesis 2020--2021): 
+- Peijie Qiu (Master thesis 2020--2021): [*Data-Driven Approaches to Solve Inverse Problems*](https://openscholarship.wustl.edu/eng_etds/571/)
 - Jieqiong Xiao (Master Research, SPRING 2019): *ADLA: Automatic differentiation and local assembly of exotic finite element variational forms in MFEM*
 - Argho Dattas (Undergraduate research, Fall 2018):  *Proximal Newton-type Methods*
 - Tao Ge (Graduate rotation, Fall 2018): *Proximal Newton Methods for X-Ray Imaging with Non-Smooth Regularization*
