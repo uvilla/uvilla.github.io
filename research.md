@@ -4,16 +4,12 @@ layout: default
 ---
 
 ## Research highlights
-My interests are directed towards mathematical modeling of physical phenomena and numerical simulations with relevance to engineering
-based problems.
-My research areas of expertise are in numerical analysis, finite element methods, algebraic multigrid solvers and preconditioners,
-numerical upscaling for porous media flow, multilevel methods for uncertainty quantification, computational fluid dynamics,
-and PDE-constrained optimization.
 
-As a Research Assistant Professor at Washington University, I am working on advanced parallel numerical algorithms for large-scale inverse problems, imagining,
-uncertainty quantification, optimal experimental design, and optimization under uncertainty.
-In addition, I am interested in applying multilevel techniques to the solution of stochastic partial differential equations,
-including Multilevel Monte-Carlo and hierarchical sampling of spatially correlated random fields.
+I define myself as a mathematical engineer and computational scientist. My work focuses on advancing our understanding of physical and biological phenomena, improving the design of engineering systems, and supporting informed decision-making under uncertainty by use of mathematical/statistical modeling and high-performance computing. An important component of my work is the systematic integration of mathematical models and data (e.g., experimental measures and images) using the Bayesian framework. Throughout my career, I have led the development of novel formulations and algorithms for the solution of both forward and inverse problems. I have achieved this by establishing a close working collaboration with some of the leading research experts in the fields of medical imaging, geophysics, engineering, computational sciences, and applied mathematics.
+
+During my doctoral program and postdoctoral training, I made several important contributions to the field of computational science and engineering, and more specifically with regards to the use of large-scale numerical simulation as a tool to inform decision making under uncertainty. These included the use of patient-specific computational hemodynamics simulations to quantify wall shear stress and predict the risk of rupture of an aneurysm; the optimal control of the inlet condition of a turbulent jet to ensure proper mixing; and the use of information theoretic approaches (expected information gain) to optimally designing sensing systems.
+
+As a Research Assistant Professor at Washington University, I am working on several projects aiming at advancing quantitative and functional image reconstruction algorithms with the ultimate goal of advancing the state-of-care for cancer diagnosis and treatment. In particular, my focus is on emerging acoustic and optical imaging modalities, such as photoacoustic computed tomography (PACT) and ultrasound computed tomography (USCT).
 
 Find me on: [Google Scholar](https://scholar.google.com/citations?user=lELCubQAAAAJ&hl=en), [Academia](https://utexas.academia.edu/UmbertoVilla), or [Research Gate](https://www.researchgate.net/profile/Umberto_Villa).
 
