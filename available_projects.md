@@ -3,7 +3,7 @@ title: Available Projects
 layout: default
 ---
 
-## Available projects for undergraduate and master-level Engineering students.
+## Available projects for undergraduate and master-level CSEM students.
 
 ### Can you hear the shape of a tumor
 -	In 1966 the Polish American mathematician Mark Kac asked the question: _Can One Hear the Shape of a Drum?_
@@ -24,7 +24,7 @@ layout: default
 
 - In this project, we will use python and just-in-time compilers to accelerate the implementation of large scale imaging operators including the spherical Radon transform (photoacoustic) and psuedospectral wave solvers.
 
-### Image guided radiotion therapy
+### Image guided radiation therapy
 - Image-guided radiation therapy (IGRT) is the use of imaging during radiation therapy to improve the precision and accuracy of cancer treatment delivery. In particular, magnetic resonance imaging (MRI) allows for tracking the position of the tumor mass and organs-at-risk to maximize treantment delivery to the first, while minimizing radiation to the latter.
 
 - In this project, we will develop new fast MRI reconstruction methods for use in IGRT.
