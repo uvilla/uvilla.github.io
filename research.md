@@ -9,9 +9,9 @@ I define myself as a mathematical engineer and computational scientist. My work 
 
 During my doctoral program and postdoctoral training, I made several important contributions to the field of computational science and engineering, and more specifically with regards to the use of large-scale numerical simulation as a tool to inform decision making under uncertainty. These included the use of patient-specific computational hemodynamics simulations to quantify wall shear stress and predict the risk of rupture of an aneurysm; the optimal control of the inlet condition of a turbulent jet to ensure proper mixing; and the use of information theoretic approaches (expected information gain) to optimally designing sensing systems.
 
-As a Research Assistant Professor at Washington University, I am working on several projects aiming at advancing quantitative and functional image reconstruction algorithms with the ultimate goal of advancing the state-of-care for cancer diagnosis and treatment. In particular, my focus is on emerging acoustic and optical imaging modalities, such as photoacoustic computed tomography (PACT) and ultrasound computed tomography (USCT).
+As a Research Scientist at the Oden Institute, I am working on several projects aiming at advancing quantitative and functional image reconstruction algorithms with the ultimate goal of advancing the state-of-care for cancer diagnosis and treatment. In particular, my focus is on emerging acoustic and optical imaging modalities, such as photoacoustic computed tomography (PACT) and ultrasound computed tomography (USCT).
 
-Find me on: [Google Scholar](https://scholar.google.com/citations?user=lELCubQAAAAJ&hl=en), [Academia](https://utexas.academia.edu/UmbertoVilla), or [Research Gate](https://www.researchgate.net/profile/Umberto_Villa).
+Find me on: [Google Scholar](https://scholar.google.com/citations?user=lELCubQAAAAJ&hl=en).
 
 | ![Quantitative Photoacoustic Tomography](images/research/qpact.png)| ![Computational Hemodynamics](images/research/hemodynamics.png) |
 | :---: | :---: |
