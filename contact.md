@@ -4,16 +4,17 @@ layout: picture_left
 ---
 
 _**Email address**_<br>
-uvilla at wustl dot edu
+uvilla at oden dot utexas dot edu
 
 _**Office**_<br>
-Room 3156, Green Hall
+POB 4.252
 
 _**Phone**_<br>
-314-935-4777
+512 232-3453
 
 _**Mailing address**_<br>
-Washington University in St Louis<br>
-Electrical and Systems Engineering <br>
-1 Brookings Drive | Campus Box 1042 <br>
-St. Louis, Missouri, 63130
+Oden Institute for Computational Engineering and Sciences
+
+The University of Texas at Austin
+201 E. 24th Street | Mail code: C0200 
+Austin, Texas 78712-1229
