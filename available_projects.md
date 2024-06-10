@@ -3,7 +3,7 @@ title: Available Projects
 layout: default
 ---
 
-## Available projects for undergraduate and master-level CSEM students.
+## Available projects for master and PhD students.
 
 ### Dynamic contrast-enhanced (DCE) imaging -- 4D/5D Image reconstruction methods for DCE photoacoustic tomography (PACT)
 - Dynamic contrast-enhanced imaging of tumor perfusion plays a fundamental role in preclinical science to assess response to new treatments, such as anticancer drugs or radiotherapy. DCE PACT presents several advantages compared to other DCE imaging modalities, including fine spatial and temporal resolution, ease of detection of the arterial input function, and the fact of being free from ionizing radiation or potentially toxic contrast agents.
@@ -30,7 +30,7 @@ layout: default
   
 -	Ideal background: **Python**, pytorch/jax, numerical analysis, partial differential equations, and finite element methods.
 
-- References: [Park 2023](https://doi.org/10.1117/1.JBO.28.6.066002), [Scope Crafts](https://doi.org/10.1117/12.3005856)
+- References: [Park 2023](https://doi.org/10.1117/1.JBO.28.6.066002), [Scope Crafts 2024](https://doi.org/10.1117/12.3005856)
 
 
 ### Make each measurement count: smaller data, richer information
@@ -43,5 +43,7 @@ layout: default
    and _large-scale optimization_ to find the best design.
  	
 -	Ideal background: Python, numerical optimization, linear algebra, partial differential equations.
+
+- References: [Scope Crafts 2024](https://doi.org/10.1117/12.3005856)
 
 
