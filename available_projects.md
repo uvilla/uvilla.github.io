@@ -15,6 +15,11 @@ layout: default
 -	References: [Lozenski 2022](https://ieeexplore.ieee.org/document/9897089), [Cam 2024](https://doi.org/10.1117/1.JBO.29.S1.S11516), [Lozenski 2024](https://arxiv.org/abs/2403.03860)
   
 ### Task-based assessment of image quality
+- Medical images are taken for a specific clinical task (screening, diagnostics, monitoring). As such, physical measurements of image quality (such as mean square errors or structural similarity) do not always inform the clinical utility of the image. Task-based assessment of image quality, instead, use signal detection and numerical observer theory to measure the performance of a particular imaging system design or image reconstruction algorithm in performing a given clinically relevant task, e.g. detecting and/or segmenting a lesion, discriminating a benign lesion from a tumor.
+
+- In this project, we will combine machine learning and image science to develop and assess conventional (model-based) and learned image reconstruction method in a principled manner by use of statistical signal detection theory and numerical observers.
+
+- References: [Lozenski 2024](https://ieeexplore.ieee.org/document/10384850), [Li 2024](https://doi.org/10.1117/1.JMI.11.2.026002)
 
 ### Can you hear the shape of a tumor -- Quantitative Photoacoustic Tomography
 -	In 1966 the Polish American mathematician Mark Kac asked the question: _Can One Hear the Shape of a Drum?_
