@@ -1,9 +1,9 @@
 ---
-title: Available Projects 
+title: Available Positions 
 layout: default
 ---
 
-## Available projects for master and PhD students.
+## Master and PhD students projects
 
 ### Dynamic contrast-enhanced (DCE) imaging -- 4D/5D Image reconstruction methods for DCE photoacoustic tomography (PACT)
 - Dynamic contrast-enhanced imaging of tumor perfusion plays a fundamental role in preclinical science to assess response to new treatments, such as anticancer drugs or radiotherapy. DCE PACT presents several advantages compared to other DCE imaging modalities, including fine spatial and temporal resolution, ease of detection of the arterial input function, and the fact of being free from ionizing radiation or potentially toxic contrast agents.
