@@ -5,7 +5,12 @@ layout: default
 
 ## Postdoc position available!
 
-A postdoc position is available to join a dynamic multidisciplinary multi-institutional team working to advance the current state-of-care in cancer treatment.
+A postdoc position is available to join our dynamic multidisciplinary multi-institutional team working to advance cancer treatment's current state of care.
+The successful candidate will work for an NIH project aiming at developing new image reconstruction algorithms that can enable high-resolution accurate estimation of tumor perfusion rates using dynamic contrast-enhanced photoacoustic tomography. 
+
+Applicants should have a strong background in numerical linear algebra, optimization, mathematical modeling, and partial differential equations; excellent written and verbal communication skills; and solid computational and programming skills (in particular, python and GPU accelerated frameworks such as jax, pytorch, cupy). Expertise in inverse problems, imaging science, and optical and acoustic imaging modalities is not required but highly desired.
+
+This position is available immediately and open until filled. For more information on how to apply see [here](files/postdoc_ad.pdf).
 
 ## Master and PhD students projects
 
