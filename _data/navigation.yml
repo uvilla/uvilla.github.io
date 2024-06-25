@@ -12,15 +12,15 @@ docs:
 
 - title: Software
   url: software.html
-  
-- title: Available Projects
-  url: available_projects.html
-  
+    
 - title: Teaching
   url: teaching.html
   
 - title: Mentoring
   url: mentoring.html
+
+- title: Join us!
+  url: available_positions.html
 
 - title: Contact
   url: contact.html
