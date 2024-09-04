@@ -13,7 +13,7 @@ layout: default
 - Refik Cam: 2022-, Ph.D. student in [Electrical and Computer Engineering](https://ece.illinois.edu/) at UIUC: *Dynamic Imaging usig Photoacoustic Tomography* (main advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu))
 
 ### M.S. students
-- Venugopal Ranganathan [Computational Science, Engineering, and Mathematics (CSEM)](https://oden.utexas.edu/academics/masters-program/)
+
 - Jenil Shah [Computational Science, Engineering, and Mathematics (CSEM)](https://oden.utexas.edu/academics/masters-program/)
 
 ### Undergraduate students
@@ -22,10 +22,11 @@ layout: default
 ## Past students
 
 ### The University of Texas at Austin:
-- Karan Prakash Hiranandani (co-advised by Dr. Ghattas): [*hIPPYfire : an inexact Newton-CG method for solving inverse problems governed by PDE forward models*](https://repositories.lib.utexas.edu/items/391351b0-e8b9-4066-b53b-f5fd8293b7ff), MS in Computational Science Engineering & Mathematics (CSEM), 2023
+- Venugopal Ranganathan (co-advised with Dr. Ghattas): *Solving Large-Scale Inverse Problems in hIPPYlibX: An Application to Quantitative Photoacoustic Tomography*, MS in Computational Science Engineering & Mathematics (CSEM), 2024
+- Karan Prakash Hiranandani (co-advised with Dr. Ghattas): [*hIPPYfire: an inexact Newton-CG method for solving inverse problems governed by PDE forward models*](https://repositories.lib.utexas.edu/items/391351b0-e8b9-4066-b53b-f5fd8293b7ff), MS in Computational Science Engineering & Mathematics (CSEM), 2023
 - Saleh, Bassel (co-advised by Dr. Ghattas): [*Scientific Machine Learning A Neural Network-Based Estimator for Forward Uncertainty Quantification*](https://www.semanticscholar.org/paper/Scientific-Machine-Learning-A-Neural-Network-Based-Saleh/ab10e3a8e734458a61598314ecd58546b501f2f7), BS in Computer Science, *Turing Scholars Honors*, 2018
-- Di Liu (co-advised by Dr. Ghattas): [*hIPPYLearn : an inexact Stochastic Newton-CG method for training neural networks*](https://repositories.lib.utexas.edu/handle/2152/62386), MS in Computational Science Engineering & Mathematics (CSEM), 2017
-- Ge Gao (co-advised by Dr. Ghattas): [*hIPPYLearn : an inexact Newton-CG method for training neural networks with analysis of the Hessian*](https://repositories.lib.utexas.edu/handle/2152/62383), MS in Computational Science Engineering & Mathematics (CSEM), 2017
+- Di Liu (co-advised by Dr. Ghattas): [*hIPPYLearn: an inexact Stochastic Newton-CG method for training neural networks*](https://repositories.lib.utexas.edu/handle/2152/62386), MS in Computational Science Engineering & Mathematics (CSEM), 2017
+- Ge Gao (co-advised by Dr. Ghattas): [*hIPPYLearn: an inexact Newton-CG method for training neural networks with analysis of the Hessian*](https://repositories.lib.utexas.edu/handle/2152/62383), MS in Computational Science Engineering & Mathematics (CSEM), 2017
 
 
 ### Washington University in St Louis
