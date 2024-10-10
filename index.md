@@ -3,8 +3,6 @@ title: Home
 layout: default
 ---
 
-> Join our computational imaging and predictive sciences team: **Postdoc position [available](available_positions.html)!**
-
 <div id="twosided">
 <div id="left" style="float: left; max-width: 30%;border: 10px"> 
     <img src="images/profile.jpg" />
