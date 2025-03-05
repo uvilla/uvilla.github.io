@@ -4,7 +4,7 @@ layout: default
 ---
 
 ### The University of Texas in Austin
-- CSE 380: Tools and Techniques of Computational Science (**Fall 2024**)
+- CSE 380: Tools and Techniques of Computational Science (**Fall 2024**) [*syllabus*](files/syllabus_ToolsTechF2024.pdf)
 - CSE 393P/GEO 391/ME 397/ORI 397: Computational and Variational Methods for Inverse Problems (**Spring 2024**, Laboratory Instructor)
 - CSE 380: Tools and Techniques of Computational Science (**Fall 2023**)
 - CSE 393P/GEO 391/ME 397/ORI 397: Computational and Variational Methods for Inverse Problems (**Spring 2023**, Laboratory Instructor)
