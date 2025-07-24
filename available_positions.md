@@ -14,6 +14,8 @@ Applicants should have a strong background in numerical linear algebra, optimiza
 This position is available immediately and open until filled. For more information on how to apply see [here](files/postdoc_ad.pdf).
 -->
 
+> Currently looking for BME and CSEM PhD students (either incoming or already in the program) to join our lab!
+
 ## Master and PhD students projects
 
 ### Dynamic contrast-enhanced (DCE) imaging -- 4D/5D Image reconstruction methods for DCE photoacoustic tomography (PACT)
