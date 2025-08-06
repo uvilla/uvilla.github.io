@@ -11,7 +11,7 @@ My research interests and expertise are in computational engineering and biomedi
 
 During my doctoral program and postdoctoral training, I made several important contributions to the field of computational science and engineering, and more specifically with regards to the use of large-scale numerical simulation as a tool to inform decision making under uncertainty. These included the use of patient-specific computational hemodynamics simulations to quantify wall shear stress and predict the risk of rupture of an aneurysm; the optimal control of the inlet condition of a turbulent jet to ensure proper mixing; and the use of information theoretic approaches (expected information gain) to optimally designing sensing systems.
 
-As a Research Associate Professor at the Oden Institute, I am working on several projects aiming at advancing quantitative and functional image reconstruction algorithms with the ultimate goal of advancing the state-of-care for cancer diagnosis and treatment. In particular, my focus is on emerging acoustic and optical imaging modalities, such as photoacoustic computed tomography (PACT) and ultrasound computed tomography (USCT).
+As an Assistant Professor of Biomedical Engineering and core faculty of the Oden Institute, I am working on several projects aiming at advancing quantitative and functional image reconstruction algorithms with the ultimate goal of advancing the state-of-care for cancer diagnosis and treatment. In particular, my focus is on emerging acoustic and optical imaging modalities, such as photoacoustic computed tomography (PACT) and ultrasound computed tomography (USCT).
 
 Find me on: [Google Scholar](https://scholar.google.com/citations?user=lELCubQAAAAJ&hl=en).
 
