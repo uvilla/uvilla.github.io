@@ -8,8 +8,9 @@ layout: default
     <img src="images/profile.jpg" />
 </div>
 <div id="right" style="float: right; width: 65%; vertical-align: middle;">
-<p> <b>Umberto Villa, PhD</b> <br> <em>Assistant Professor</em>, Department of Biomedical Engineering 
-<br> <em>Core faculty</em>, <a href="https://oden.utexas.edu" target="blank">Oden Institute for Computational Engineering and Sciences</a><br>
+<p> <b>Umberto Villa, PhD</b></p>
+<p> <em>Assistant Professor</em>, <a href="https://www.bme.utexas.edu/" target="blank">Department of Biomedical Engineering</a><br>
+<em>Core faculty</em>, <a href="https://oden.utexas.edu" target="blank">Oden Institute</a><br>
 <a href="https://utexas.edu" target="blank">The University of Texas at Austin</a></p>
 <p> <a href="https://oden.utexas.edu/news-and-events/news/Computational-Breakthroughs-in-Medical-Imaging-Umberto-Villa/" target="blank"> Faculty Profile</a></p>
 <p> <a href="files/UmbertoVilla_cv.pdf">Curriculum vitae </a> </p>
