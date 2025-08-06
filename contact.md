@@ -4,9 +4,10 @@ layout: picture_left
 ---
 
 _**Email address**_<br>
-uvilla at oden dot utexas dot edu
+uvilla at austin dot utexas dot edu
 
 _**Office**_<br>
+BME 5.202T
 POB 4.252
 
 _**Phone**_<br>
