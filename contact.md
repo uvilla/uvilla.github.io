@@ -7,7 +7,7 @@ _**Email address**_<br>
 uvilla at austin dot utexas dot edu
 
 _**Office**_<br>
-BME 5.202T
+BME 5.202T<br>
 POB 4.252
 
 _**Phone**_<br>
@@ -15,7 +15,7 @@ _**Phone**_<br>
 
 _**Mailing address**_<br>
 Oden Institute for Computational Engineering and Sciences
-
+<br>
 The University of Texas at Austin
 201 E. 24th Street | Mail code: C0200 
 Austin, Texas 78712-1229
