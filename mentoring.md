@@ -10,7 +10,7 @@ layout: default
 - Luke Lozenski: 2020-, Ph.D. candidate in [System Science and Mathematics](https://ese.wustl.edu/academics/graduate-programs/doctoral/PhD-in-Systems-Science-Mathematics.html) at WashU: *Model-based and learning image reconstruction methods for photoacoustic tomography*
 - Fu Li: 2019-, Ph.D. candidate in [Bioengineering](https://bioengineering.illinois.edu/) at UIUC: *Ultrasound Computed Tomography* (main advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu))
 - Kevin Huang: 2022-, Ph.D. candidate in [Bioengineering](https://bioengineering.illinois.edu/) at UIUC: *Model-based and learning-based image reconstruction methods for transcranial photoacoustic computed tomography* (main advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu))
-- Refik Cam: 2022-, Ph.D. student in [Electrical and Computer Engineering](https://ece.illinois.edu/) at UIUC: *Dynamic Imaging usig Photoacoustic Tomography* (main advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu))
+- Refik Cam: 2022-, Ph.D. student in [Electrical and Computer Engineering](https://ece.illinois.edu/) at UIUC: *Dynamic Imaging using Photoacoustic Tomography* (main advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu))
 
 ### M.S. students
 
