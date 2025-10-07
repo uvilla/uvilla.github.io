@@ -7,8 +7,8 @@ layout: default
 
 ### PhD students
 - Evan Craft Scope: 2023-, Ph.D. candidate in [Computational Science, Engineering, and Mathematics (CSEM)](https://oden.utexas.edu/academics/phd-program/) at UT Austin: *Optimal experimental design of Photoacoustic tomography imaging systems*
-- Luke Lozenski: 2020-, Ph.D. candidate in [System Science and Mathematics](https://ese.wustl.edu/academics/graduate-programs/doctoral/PhD-in-Systems-Science-Mathematics.html) at WashU: *Model-based and learning image reconstruction methods for photoacoustic tomography*
-- Fu Li: 2019-, Ph.D. candidate in [Bioengineering](https://bioengineering.illinois.edu/) at UIUC: *Ultrasound Computed Tomography* (main advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu))
+- Luke Lozenski: 2020-2025, Ph.D. candidate in [System Science and Mathematics](https://ese.wustl.edu/academics/graduate-programs/doctoral/PhD-in-Systems-Science-Mathematics.html) at WashU: *Model-based and learning image reconstruction methods for photoacoustic tomography*
+- Fu Li: 2019-2024, Ph.D. candidate in [Bioengineering](https://bioengineering.illinois.edu/) at UIUC: *Ultrasound Computed Tomography* (main advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu))
 - Kevin Huang: 2022-, Ph.D. candidate in [Bioengineering](https://bioengineering.illinois.edu/) at UIUC: *Model-based and learning-based image reconstruction methods for transcranial photoacoustic computed tomography* (main advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu))
 - Refik Cam: 2022-, Ph.D. student in [Electrical and Computer Engineering](https://ece.illinois.edu/) at UIUC: *Dynamic Imaging using Photoacoustic Tomography* (main advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu))
 
