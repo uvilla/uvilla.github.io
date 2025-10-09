@@ -8,8 +8,9 @@ layout: default
 ### PhD students
 - Brendan Eder: Fall 2025, BME Rotation
 - Evan Craft Scope: 2023-, Ph.D. candidate in [Computational Science, Engineering, and Mathematics (CSEM)](https://oden.utexas.edu/academics/phd-program/) at UT Austin: *Optimal experimental design of Photoacoustic tomography imaging systems*
-- Kevin Huang: 2022-, Ph.D. candidate in [Bioengineering](https://bioengineering.illinois.edu/) at UIUC: *Model-based and learning-based image reconstruction methods for transcranial photoacoustic computed tomography* (main advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu))
-- Refik Cam: 2022-, Ph.D. student in [Electrical and Computer Engineering](https://ece.illinois.edu/) at UIUC: *Dynamic Imaging using Photoacoustic Tomography* (main advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu))
+- Kevin Huang: 2022-, Ph.D. candidate in [Bioengineering](https://bioengineering.illinois.edu/) at UIUC: *Advance Image Reconstruction in Transcranial Photoacoustic Computed Tomography* (main advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu))
+- Refik Cam: 2022-, Ph.D. candidate in [Electrical and Computer Engineering](https://ece.illinois.edu/) at UIUC: *Dynamic Imaging using Photoacoustic Tomography* (main advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu))
+- Gangwon Jeong: 2022-, Ph.D. candidate in [Bioengineering](https://bioengineering.illinois.edu/) at UIUC: *Accurate Breast Imaging in Photoacoustic Computed Tomography Enabled by Acoustic Property Estimation in Heterogeneous Media*(main advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu))
 
 ## Past students
 
