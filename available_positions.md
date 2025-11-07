@@ -14,9 +14,13 @@ Applicants should have a strong background in numerical linear algebra, optimiza
 This position is available immediately and open until filled. For more information on how to apply see [here](files/postdoc_ad.pdf).
 -->
 
-> Currently looking for BME and CSEM PhD students (either incoming or already in the program) to join our lab!
+> We are currently looking for undergraduate, MS and PhD students (either incoming or already at UT) to join our lab!
+> - _Prospective PhD students_: Please e-mail me if you are interest in the BME or CSEM PhD program. Please include your CV, transcripts (unofficial copy is okay), and a brief description of your training and research interests. Please elaborate on your linear algebra, numerical methods & optimization background as well as programming skills.
+> - _PhD students in BME and CSEM_ already in the program but still looking for a match: Please reach out!
+> - _Undergraduate students_ in the [Computational Science and Engineering Certificate](https://oden.utexas.edu/academics/undergraduates/computational-science-and-engineering-certificate/): Yes! I can serve as the faculty mentor for your Scientific Computing Project 
+> - _Undergraduate students_ in BME: Please reach-out! Having taken BME 313L Intro to Numerical Methods is strongly encouraged for a successful research experience!
 
-## Master and PhD students projects
+## Some projects ideas for PhD and MS students
 
 ### Dynamic contrast-enhanced (DCE) imaging -- 4D/5D Image reconstruction methods for DCE photoacoustic tomography (PACT)
 - Dynamic contrast-enhanced imaging of tumor perfusion plays a fundamental role in preclinical science to assess response to new treatments, such as anticancer drugs or radiotherapy. DCE PACT presents several advantages compared to other DCE imaging modalities, including fine spatial and temporal resolution, ease of detection of the arterial input function, and the fact of being free from ionizing radiation or potentially toxic contrast agents.
