@@ -15,10 +15,16 @@ This position is available immediately and open until filled. For more informati
 -->
 
 > We are currently looking for undergraduate, MS and PhD students (either incoming or already at UT) to join our lab!
-> - _Prospective PhD students_: Please e-mail me if you are interest in the BME or CSEM PhD program. Please include your CV, transcripts (unofficial copy is okay), and a brief description of your training and research interests. Please elaborate on your linear algebra, numerical methods & optimization background as well as programming skills.
+> - _Prospective PhD students_: Please e-mail me if you are interest in the [BME](https://www.bme.utexas.edu/academics/graduate-program/phd-program) or [CSEM](https://oden.utexas.edu/academics/prospective-students/) PhD program. Please include your CV, transcripts (unofficial copy is okay), and a brief description of your training and research interests. Please elaborate on your linear algebra, numerical methods & optimization background as well as programming skills.
 > - _PhD students in BME and CSEM_ already in the program but still looking for a match: Please reach out!
 > - _Undergraduate students_ in the [Computational Science and Engineering Certificate](https://oden.utexas.edu/academics/undergraduates/computational-science-and-engineering-certificate/): Yes! I can serve as the faculty mentor for your Scientific Computing Project 
 > - _Undergraduate students_ in BME: Please reach-out! Having taken BME 313L Intro to Numerical Methods is strongly encouraged for a successful research experience!
+
+
+### Important dates
+- December 1, 2025: Application deadline for [Peter O'Donnell Jr. Postdoc Fellowship](https://oden.utexas.edu/programs-and-awards/odonnell-jr-postdoc-fellowship/). This is a very competitive fellowship. Please reach out if you are interested in advancing biomedical research by use of scientific computing and AI
+- December 1, 2025: Application deadline for BME PhD Program
+- December 10, 2025: Application deadline for CSEM PhD Program
 
 ## Some projects ideas for PhD and MS students
 
