@@ -33,7 +33,7 @@ layout: default
 - Ge Gao (co-advised by Dr. Ghattas): [*hIPPYLearn: an inexact Newton-CG method for training neural networks with analysis of the Hessian*](https://repositories.lib.utexas.edu/handle/2152/62383), MS in Computational Science Engineering & Mathematics (CSEM), 2017
 
 ### Undergraduate students
-- Thomas Wynn: 2025 Undergraduate Research Assistant. Now Fullbright fellow at the Neuro-X Institute of the
+- Thomas Wynn: 2025 Undergraduate Research Assistant. Now [Fullbright fellow](https://actu.epfl.ch/news/thomas-wynn-joins-the-blanke-lab-as-a-fulbright-gr/) at the Neuro-X Institute of the
 Ecole Polytechnique Federale de Lausanne, Lausanne, Switzerland
 - Argho Dattas (Undergraduate research, Fall 2018):  *Proximal Newton-type Methods*
 - Saleh, Bassel (co-advised by Dr. Ghattas): [*Scientific Machine Learning A Neural Network-Based Estimator for Forward Uncertainty Quantification*](https://www.semanticscholar.org/paper/Scientific-Machine-Learning-A-Neural-Network-Based-Saleh/ab10e3a8e734458a61598314ecd58546b501f2f7), BS in Computer Science, *Turing Scholars Honors*, 2018
