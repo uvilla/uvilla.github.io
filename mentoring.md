@@ -6,7 +6,7 @@ layout: default
 ## Current students & postdocs:
 
 ### Postdocs
-- Jaiqi Yang: 2026-- Peter O'Donnel Postdoctoral Fellow
+- [Jaiqi Yang](https://www.linkedin.com/in/jiaqiyang0731/): 2026-- Peter O'Donnel Postdoctoral Fellow
 
 ### PhD students
 - [Eric Zou](https://ericzou007.github.io/Eric-github.io/): 2026 --, Computational Science, Engineering, and Mathematics (CSEM)
