@@ -6,24 +6,36 @@ layout: default
 ## Current students & postdocs:
 
 ### Postdocs
-- [Tao Hong](https://hongtao-argmin.github.io/): 2025 --
+- Jaiqi Yang: 2026-- Peter O'Donnel Postdoctoral Fellow
 
 ### PhD students
-- Brendan Eder: Fall 2025, BME Rotation
-- Evan Craft Scope: 2023-, Ph.D. candidate in [Computational Science, Engineering, and Mathematics (CSEM)](https://oden.utexas.edu/academics/phd-program/) at UT Austin: *Optimal experimental design of Photoacoustic tomography imaging systems*
-- Kevin Huang: 2022-, Ph.D. candidate in [Bioengineering](https://bioengineering.illinois.edu/) at UIUC: *Advance Image Reconstruction in Transcranial Photoacoustic Computed Tomography* (main advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu))
-- Refik Cam: 2022-, Ph.D. candidate in [Electrical and Computer Engineering](https://ece.illinois.edu/) at UIUC: *Dynamic Imaging using Photoacoustic Tomography* (main advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu))
-- Gangwon Jeong: 2022-, Ph.D. candidate in [Bioengineering](https://bioengineering.illinois.edu/) at UIUC: *Accurate Breast Imaging in Photoacoustic Computed Tomography Enabled by Acoustic Property Estimation in Heterogeneous Media*(main advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu))
+- [Eric Zou](https://ericzou007.github.io/Eric-github.io/): 2026 --, Computational Science, Engineering, and Mathematics (CSEM)
+- [Zeyu Chang](https://www.linkedin.com/in/zeyuchang/): 2026 --, Biomedical Engineering
+- [Victor Kaplan](https://www.linkedin.com/in/victor-kaplan-b252ab292/): 2026 -- Computational Science, Engineering, and Mathematics (CSEM)
+- [Blake Evans](https://sites.utexas.edu/dmiclab/graduate-students/blake-evans/): 2026 -- Ph.D. canditate in Biomedical Engineering (main advisor: Dr. Ed Castillo)
 
-## Past students
+### Ms student
+- [Radhika Bhandari](https://www.linkedin.com/in/bhandariradhika): 2026 --
 
-### PhD students:
+
+## Alumni
+
+### Past postdocs:
+- [Tao Hong](https://hongtao-argmin.github.io/): 2025 -- 2026. Now at Boston Children’s Hospital
+
+### PhD students advised:
+- Evan Scope Crafts: 2026, Ph.D. in [Computational Science, Engineering, and Mathematics (CSEM)](https://oden.utexas.edu/academics/phd-program/) at UT Austin: *Data-Driven Optimal Experimental Design and Uncertainty Quantification with Applications in Computational Imaging*
 - Luke Lozenski: 2025, Ph.D. in [System Science and Mathematics](https://ese.wustl.edu/academics/graduate-programs/doctoral/PhD-in-Systems-Science-Mathematics.html) at WashU: [AI-assisted Model-guided Image Reconstruction Methods for Photoacoustic and Ultrasound Computed Tomography](https://doi.org/10.7936/f6xk-x925
 ). Now postdoctoral researcher at [DTU Compute](https://www.compute.dtu.dk/)
-- Fu Li: 2024, Ph.D. in [Bioengineering](https://bioengineering.illinois.edu/) at UIUC: [*Three-dimensional image reconstruction in breast ultrasound computed tomography*](https://hdl.handle.net/2142/129556) (main advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu)). Now Software Engineer at [Pony AI](https://pony.ai/)
-- Tao Ge (Graduate rotation in Imaging Science, Fall 2018): *Proximal Newton Methods for X-Ray Imaging with Non-Smooth Regularization*
 
-### MS students:
+### PhD students co-advised:
+- Kevin Huang: 2026, Ph.D. in [Bioengineering](https://bioengineering.illinois.edu/) at UIUC: *Advance Image Reconstruction in Transcranial Photoacoustic Computed Tomography* (main advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu))
+- Refik Cam: 2026, Ph.D.  in [Electrical and Computer Engineering](https://ece.illinois.edu/) at UIUC: *Dynamic Imaging using Photoacoustic Tomography* (main advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu))
+- Gangwon Jeong: 2025, Ph.D. [Bioengineering](https://bioengineering.illinois.edu/) at UIUC: *Accurate Breast Imaging in Photoacoustic Computed Tomography Enabled by Acoustic Property Estimation in Heterogeneous Media*(main advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu))
+- Fu Li: 2024, Ph.D. in [Bioengineering](https://bioengineering.illinois.edu/) at UIUC: [*Three-dimensional image reconstruction in breast ultrasound computed tomography*](https://hdl.handle.net/2142/129556) (main advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu)). Now Software Engineer at [Pony AI](https://pony.ai/)
+
+
+### MS students advised:
 - Jenil Shah: 2025, MS in [Computational Science, Engineering, and Mathematics (CSEM)](https://oden.utexas.edu/academics/masters-program/): [Low Rank-Based Image Reconstruction Methods for Dynamic Contrast Enhanced Multispectral Optoacoustic Tomography](https://doi.org/10.26153/tsw/62057). Now Data Scientist II at Voleon Capital Management.
 - Venugopal Ranganathan: 2024, MS in [Computational Science, Engineering, and Mathematics (CSEM)](https://oden.utexas.edu/academics/masters-program/): [*Solving Large-Scale Inverse Problems in hIPPYlibX: An Application to Quantitative Photoacoustic Tomography*](https://doi.org/10.26153/tsw/56684). Now Ph.D. student in at UT Austin.
 - Karan Prakash Hiranandani: 2023, MS in [Computational Science, Engineering, and Mathematics (CSEM)](https://oden.utexas.edu/academics/masters-program/): [*hIPPYfire: an inexact Newton-CG method for solving inverse problems governed by PDE forward models*](http://dx.doi.org/10.26153/tsw/47153). Now R&D Engineer at ANSI
