@@ -5,7 +5,7 @@ layout: default
 
 Software development is an important component of my research and I am involved in several open source projects.
 
-- [hIPPYlib](https://hippylib.github.io)/[hIPPYlibx](https://github.com/hippylib/hippylibx) implements state-of-the-art scalable algorithms for PDE-based deterministic and Bayesian inverse problems. It builds on [FEniCS](https://fenicsproject.org) (a parallel finite element element library)  for the discretization of the PDE and on [PETSc](https://www.mcs.anl.gov/petsc/) for scalable and efficient linear algebra operations
+- [hIPPYlib](https://hippylib.github.io)/[hIPPYlibx](https://github.com/hippylib/hippylibx) implements state-of-the-art scalable algorithms for PDE-based deterministic and Bayesian inverse problems. It builds on [FEniCS](https://fenicsproject.org)/dolfinx (a parallel finite element element library)  for the discretization of the PDE and on [PETSc](https://www.mcs.anl.gov/petsc/) for scalable and efficient linear algebra operations
 and solvers. (UT Texas, UC Merced - lead developers: U. Villa, [N. Petra](http://faculty.ucmerced.edu/npetra/index.html))
 
 - [ParELAG](http://github.com/LLNL/parelag) implements upscaling and algebraic multigrid techniques for the efficient
