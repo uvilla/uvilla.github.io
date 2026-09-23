@@ -15,7 +15,7 @@ layout: default
 - [Blake Evans](https://sites.utexas.edu/dmiclab/graduate-students/blake-evans/): 2026 -- Ph.D. canditate in Biomedical Engineering (main advisor: Dr. Ed Castillo)
 
 ### Ms student
-- [Radhika Bhandari](https://www.linkedin.com/in/bhandariradhika): 2026 --
+- [Radhika Bhandari](https://www.linkedin.com/in/bhandariradhika): 2026 -- MS. student in Engineering Mechanics
 
 
 ## Alumni
