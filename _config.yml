@@ -22,16 +22,17 @@ affiliations:
   - name: The University of Texas at Austin
     url: https://utexas.edu
 
+orcid: 0000-0002-5142-2559
+
 profiles:
   - name: Google Scholar
     url: https://scholar.google.com/citations?user=lELCubQAAAAJ&hl=en
+  - name: ORCID
+    url: https://orcid.org/0000-0002-5142-2559
   - name: GitHub
     url: https://github.com/uvilla
   - name: Faculty profile
     url: https://oden.utexas.edu/news-and-events/news/Computational-Breakthroughs-in-Medical-Imaging-Umberto-Villa/
-  # Add your ORCID here and it will appear in the header and footer:
-  # - name: ORCID
-  #   url: https://orcid.org/0000-0000-0000-0000
 
 google_analytics: UA-52448613-2
 

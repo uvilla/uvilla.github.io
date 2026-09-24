@@ -30,6 +30,42 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap">
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}{% if site.github.build_revision %}?v={{ site.github.build_revision }}{% endif %}">
 
+{%- comment -%}
+Machine-readable identity, emitted once on the home page. The point of an
+ORCID is that software can read it, so it goes in `identifier` as well as in
+the visible profile links.
+{%- endcomment -%}
+{%- if page.url == "/" -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ site.author | jsonify }},
+  "jobTitle": {{ site.role | jsonify }},
+  "url": {{ '/' | absolute_url | jsonify }},
+  "image": {{ '/images/optimized/profile.jpg' | absolute_url | jsonify }},
+  "email": {{ site.author_email | prepend: "mailto:" | jsonify }}
+  {%- if site.orcid -%},
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "ORCID",
+    "value": "https://orcid.org/{{ site.orcid }}"
+  }
+  {%- endif -%},
+  "affiliation": [
+    {%- for a in site.affiliations -%}
+    { "@type": "Organization", "name": {{ a.name | jsonify }}, "url": {{ a.url | jsonify }} }{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ],
+  "sameAs": [
+    {%- for p in site.profiles -%}
+    {{ p.url | jsonify }}{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ]
+}
+</script>
+{%- endif -%}
+
 <script>
   (function () {
     try {
