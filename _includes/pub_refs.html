@@ -1,0 +1,37 @@
+{%- comment -%}
+Render a short reference list from _data/publications.yml.
+
+    {% include pub_refs.html keys="KeyA, KeyB, KeyC" %}
+    {% include pub_refs.html label="Key products" keys="KeyA, KeyB" %}
+
+Keys are BibTeX cite keys from material/uvilla.bib. An unknown key renders an
+HTML comment instead of a list item, so a renamed key shows up as a gap rather
+than a broken citation.
+{%- endcomment -%}
+{%- assign want = include.keys | split: "," -%}
+<div class="theme__refs">
+  <p>{{ include.label | default: "Selected work" }}</p>
+  <ul>
+  {%- for k in want -%}
+    {%- assign kk = k | strip -%}
+    {%- assign e = site.data.publications.entries | where: "key", kk | first -%}
+    {%- if e -%}
+    <li>
+      {%- if e.authors.size > 6 -%}
+        {%- assign shown = e.authors | slice: 0, 3 -%}
+        {%- for a in shown %}{% if forloop.index > 1 %}, {% endif %}{% if a == site.author %}<span class="me">{{ a }}</span>{% else %}{{ a }}{% endif %}{% endfor %}, et al.
+      {%- else -%}
+        {%- for a in e.authors %}{% if forloop.index > 1 %}, {% endif %}{% if a == site.author %}<span class="me">{{ a }}</span>{% else %}{{ a }}{% endif %}{% endfor -%}
+      {%- endif -%}
+      . {{ e.title }}.
+      {%- if e.venue %} <cite>{{ e.venue }}</cite>{% endif %} {{ e.year }}.
+      {%- if e.doi %} <a href="https://doi.org/{{ e.doi }}" target="_blank" rel="noopener">doi</a>
+      {%- elsif e.arxiv %} <a href="https://arxiv.org/abs/{{ e.arxiv }}" target="_blank" rel="noopener">arXiv</a>
+      {%- elsif e.url %} <a href="{{ e.url }}" target="_blank" rel="noopener">link</a>{% endif -%}
+    </li>
+    {%- else -%}
+    <!-- pub_refs: no entry with key "{{ kk }}" in _data/publications.yml -->
+    {%- endif -%}
+  {%- endfor -%}
+  </ul>
+</div>

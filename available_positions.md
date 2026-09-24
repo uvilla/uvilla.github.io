@@ -1,6 +1,11 @@
 ---
-title: Available Positions 
+title: Join us
 layout: default
+eyebrow: Join us
+heading: Open positions and project ideas
+subtitle: >-
+  We are looking for undergraduate, MS, and PhD students — incoming or already
+  at UT — to join the lab.
 ---
 
 <!--
@@ -14,16 +19,22 @@ Applicants should have a strong background in numerical linear algebra, optimiza
 This position is available immediately and open until filled. For more information on how to apply see [here](files/postdoc_ad.pdf).
 -->
 
-> [!TIP]
-> We are currently looking for undergraduate, MS and PhD students (either incoming or already at UT) to join our lab!
-> - _Prospective PhD students_: Please e-mail me if you are interest in the [BME](https://www.bme.utexas.edu/academics/graduate-program/phd-program) or [CSEM](https://oden.utexas.edu/academics/prospective-students/) PhD program. Please include your CV, transcripts (unofficial copy is okay), and a brief description of your training and research interests. Please elaborate on your linear algebra, numerical methods & optimization background as well as programming skills.
-> - _PhD students in BME and CSEM_ already in the program but still looking for a match: Please reach out!
-> - _Undergraduate students_ in the [Computational Science and Engineering Certificate](https://oden.utexas.edu/academics/undergraduates/computational-science-and-engineering-certificate/): Yes! I can serve as the faculty mentor for your Scientific Computing Project 
-> - _Undergraduate students_ in BME: Please reach-out! Having taken BME 313L Intro to Numerical Methods is strongly encouraged for a successful research experience!
+<div class="callout" markdown="1">
+<span class="callout__title">How to reach out</span>
 
-> [!CAUTION]
-> Please no unsolicited e-mail regarding serving as a Teaching Assistant (TA) for courses I offer.
-> TA assignments are handled at the department level.
+- **Prospective PhD students** — e-mail me if you are interested in the [BME](https://www.bme.utexas.edu/academics/graduate-program/phd-program) or [CSEM](https://oden.utexas.edu/academics/prospective-students/) PhD program. Include your CV, transcripts (unofficial is fine), and a brief description of your training and research interests. Please elaborate on your linear algebra, numerical methods, and optimization background, as well as your programming skills.
+- **PhD students in BME and CSEM** already in the program but still looking for a match — please reach out.
+- **Undergraduates in the [Computational Science and Engineering Certificate](https://oden.utexas.edu/academics/undergraduates/computational-science-and-engineering-certificate/)** — yes, I can serve as the faculty mentor for your Scientific Computing Project.
+- **Undergraduates in BME** — please reach out. Having taken BME 313L (Introduction to Numerical Methods) is strongly encouraged for a successful research experience.
+
+</div>
+
+<div class="callout callout--note" markdown="1">
+<span class="callout__title">Please note</span>
+
+No unsolicited e-mail regarding serving as a Teaching Assistant, please — TA assignments are handled at the department level.
+
+</div>
 
 <!--
 ### Important dates

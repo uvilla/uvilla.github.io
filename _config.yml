@@ -1,6 +1,52 @@
-title: Umberto Villa 
-description: Assistant Professor <br> Biomedical Engineering &amp Oden Institute, UT Austin
+title: Umberto Villa
+tagline: Assistant Professor of Biomedical Engineering
+description: >-
+  Umberto Villa is an Assistant Professor of Biomedical Engineering and core
+  faculty at the Oden Institute, The University of Texas at Austin, working at
+  the interface of imaging science, inverse problems, and scientific computing.
+
 author: Umberto Villa
 author_email: uvilla@oden.utexas.edu
+
+url: https://uvilla.github.io
+baseurl: ""
+lang: en-US
+
+# Shown in the site header and on the home page.
+role: Assistant Professor
+affiliations:
+  - name: Department of Biomedical Engineering
+    url: https://www.bme.utexas.edu/
+  - name: Oden Institute for Computational Engineering and Sciences
+    url: https://oden.utexas.edu
+  - name: The University of Texas at Austin
+    url: https://utexas.edu
+
+profiles:
+  - name: Google Scholar
+    url: https://scholar.google.com/citations?user=lELCubQAAAAJ&hl=en
+  - name: GitHub
+    url: https://github.com/uvilla
+  - name: Faculty profile
+    url: https://oden.utexas.edu/news-and-events/news/Computational-Breakthroughs-in-Medical-Imaging-Umberto-Villa/
+  # Add your ORCID here and it will appear in the header and footer:
+  # - name: ORCID
+  #   url: https://orcid.org/0000-0000-0000-0000
+
 google_analytics: UA-52448613-2
-theme: jekyll-theme-cayman
+
+sass:
+  style: compressed
+
+exclude:
+  - material/
+  - scripts/
+  - Makefile
+  - README.md
+  - vendor/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

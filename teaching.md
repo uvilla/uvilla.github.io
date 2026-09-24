@@ -1,9 +1,14 @@
 ---
-title: Teaching 
+title: Teaching
 layout: default
+eyebrow: Teaching
+heading: Courses
+subtitle: >-
+  Graduate and undergraduate teaching in computational science, numerical
+  methods, imaging science, and inverse problems.
 ---
 
-### The University of Texas in Austin
+### The University of Texas at Austin
 - BME383J/CSE397: AI Methods in Medical Imaging (Graduate level, **Fall 2026**) [*syllabus*](files/syllabus_AIMedImagingF2026.pdf)
 - BME 313L: Introduction to Numerical Methods in Biomedical Engineering (Undergraduate level, **Spring 2026**) [*syllabus*](https://utdirect.utexas.edu/apps/student/coursedocs/courses/nlogon/download/16990864/)
 - CSE 380: Tools and Techniques of Computational Science (Graduate level, **Fall 2024**) [*syllabus*](files/syllabus_ToolsTechF2024.pdf)

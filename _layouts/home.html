@@ -1,0 +1,38 @@
+---
+layout: base
+---
+
+<div class="hero">
+  <div class="wrap hero__inner">
+    <div>
+      <h1>{{ site.author }}</h1>
+      <p class="hero__affil">
+        <strong>{{ site.role }}</strong>,
+        {%- for a in site.affiliations %}
+          <a href="{{ a.url }}" target="_blank" rel="noopener">{{ a.name }}</a>{% unless forloop.last %}<br>{% endunless %}
+        {%- endfor %}
+      </p>
+
+      {%- if page.lede %}<p class="lede">{{ page.lede }}</p>{% endif %}
+
+      <p class="btn-row" style="margin-top:1.6rem">
+        <a class="btn btn--primary" href="{{ '/research.html' | relative_url }}">Research</a>
+        <a class="btn" href="{{ '/publications.html' | relative_url }}">Publications</a>
+        <a class="btn" href="{{ '/files/UmbertoVilla_cv.pdf' | relative_url }}">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          Curriculum vitae
+        </a>
+        <a class="btn" href="{{ '/contact.html' | relative_url }}">Contact</a>
+      </p>
+    </div>
+
+    <div class="hero__media">
+      <img class="hero__photo" src="{{ '/images/optimized/profile.jpg' | relative_url }}"
+           alt="Portrait of {{ site.author }}" width="900" height="900">
+    </div>
+  </div>
+</div>
+
+<div class="wrap page-body">
+  {{ content }}
+</div>

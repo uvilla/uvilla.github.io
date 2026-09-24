@@ -1,26 +1,26 @@
-docs_list_title: Menu 
+docs_list_title: Menu
+
 docs:
+  - title: Home
+    url: /
 
-- title: Home
-  url: index.html
+  - title: Research
+    url: /research.html
 
-- title: Research
-  url: research.html
+  - title: Publications
+    url: /publications.html
 
-- title: Publications
-  url: publications.html
+  - title: Software
+    url: /software.html
 
-- title: Software
-  url: software.html
-    
-- title: Teaching
-  url: teaching.html
-  
-- title: Mentoring
-  url: mentoring.html
+  - title: Teaching
+    url: /teaching.html
 
-- title: Join us!
-  url: available_positions.html
+  - title: Group
+    url: /mentoring.html
 
-- title: Contact
-  url: contact.html
+  - title: Join us
+    url: /available_positions.html
+
+  - title: Contact
+    url: /contact.html

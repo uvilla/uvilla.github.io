@@ -1,9 +1,14 @@
 ---
-title: Mentoring 
+title: Group
 layout: default
+eyebrow: Group
+heading: Students, postdocs, and alumni
+subtitle: >-
+  Five PhD students as main advisor, five co-advised, eight master's students,
+  three undergraduates, and two postdoctoral researchers to date.
 ---
 
-## Current students & postdocs:
+## Current students & postdocs
 
 ### Postdocs
 - [Jaiqi Yang](https://www.linkedin.com/in/jiaqiyang0731/): 2026-- Peter O'Donnel Postdoctoral Fellow

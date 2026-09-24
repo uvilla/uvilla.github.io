@@ -2,7 +2,6 @@
 layout: base
 ---
 
-{%- unless page.hide_header -%}
 <div class="page-head">
   <div class="wrap page-head__inner">
     {%- if page.eyebrow %}<span class="eyebrow">{{ page.eyebrow }}</span>{% endif -%}
@@ -10,10 +9,5 @@ layout: base
     {%- if page.subtitle %}<p class="lede">{{ page.subtitle }}</p>{% endif -%}
   </div>
 </div>
-{%- endunless -%}
 
-<div class="wrap page-body">
-  <div class="{{ page.container | default: 'prose' }}">
-    {{ content }}
-  </div>
-</div>
+{{ content }}
