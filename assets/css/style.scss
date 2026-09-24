@@ -1,5 +1,15 @@
 ---
 # Plain CSS, compiled by Jekyll's Sass pipeline. No theme import, no variables.
+#
+# IMPORTANT -- GitHub Pages builds this with Ruby Sass 3.7 (jekyll-sass-converter
+# 1.5.2), which predates clamp()/min()/max() and tries to *evaluate* arithmetic
+# inside function arguments. `font-size: clamp(2rem, 1.35rem + 2.6vw, 3rem)`
+# fails the build with "Incompatible units: 'vw' and 'rem'".
+#
+# Custom property values are exempt: Sass 3.5+ treats them as literal text.
+# So every fluid clamp() lives in a `--token` below and is referenced with
+# var(). Keep it that way -- do not inline a clamp() with arithmetic into a
+# normal declaration, or the Pages build will break.
 ---
 
 /* ==========================================================================
@@ -37,6 +47,21 @@
   --measure: 68ch;
   --page: 1140px;
   --gutter: clamp(1.15rem, 4vw, 2.5rem);
+
+  /* Fluid type scale. These live here, rather than inline, because Sass 3.7
+     evaluates arithmetic in normal declarations but not in custom properties. */
+  --fs-h1: clamp(2rem, 1.35rem + 2.6vw, 3rem);
+  --fs-h2: clamp(1.4rem, 1.15rem + 1.1vw, 1.85rem);
+  --fs-h3: clamp(1.08rem, 1rem + .35vw, 1.24rem);
+  --fs-lede: clamp(1.06rem, 1rem + .5vw, 1.22rem);
+  --fs-theme-title: clamp(1.3rem, 1.1rem + .9vw, 1.6rem);
+
+  /* Fluid spacing, same reason. */
+  --pad-page: clamp(2rem, 1rem + 3.5vw, 3.75rem);
+  --pad-head: clamp(2.25rem, 1.4rem + 3.4vw, 3.75rem);
+  --pad-hero: clamp(2.5rem, 1.5rem + 4vw, 4.5rem);
+  --gap-hero: clamp(1.75rem, 1rem + 3vw, 3.5rem);
+  --gap-contact: clamp(1.75rem, 1rem + 3vw, 3rem);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -128,9 +153,9 @@ h1, h2, h3, h4 {
   text-wrap: balance;
 }
 
-h1 { font-family: var(--serif); font-size: clamp(2rem, 1.35rem + 2.6vw, 3rem); letter-spacing: -.02em; }
-h2 { font-family: var(--serif); font-size: clamp(1.4rem, 1.15rem + 1.1vw, 1.85rem); margin-top: 2.4em; }
-h3 { font-size: clamp(1.08rem, 1rem + .35vw, 1.24rem); margin-top: 2em; }
+h1 { font-family: var(--serif); font-size: var(--fs-h1); letter-spacing: -.02em; }
+h2 { font-family: var(--serif); font-size: var(--fs-h2); margin-top: 2.4em; }
+h3 { font-size: var(--fs-h3); margin-top: 2em; }
 h4 { font-size: 1rem; margin-top: 1.6em; }
 
 h2:first-child, h3:first-child { margin-top: 0; }
@@ -243,7 +268,7 @@ th { color: var(--ink); font-weight: 600; }
   padding-inline: var(--gutter);
 }
 
-.page-body { padding-block: clamp(2rem, 1rem + 3.5vw, 3.75rem) 4rem; }
+.page-body { padding-block: var(--pad-page) 4rem; }
 
 /* Default page container: comfortable reading measure. Pages that lay out
    grids set `container: full` in their front matter to opt out. */
@@ -254,7 +279,7 @@ th { color: var(--ink); font-weight: 600; }
 .full > :first-child { margin-top: 0; }
 
 .lede {
-  font-size: clamp(1.06rem, 1rem + .5vw, 1.22rem);
+  font-size: var(--fs-lede);
   line-height: 1.6;
   color: var(--muted);
   max-width: 58ch;
@@ -405,7 +430,7 @@ th { color: var(--ink); font-weight: 600; }
     var(--bg-alt);
 }
 
-.page-head__inner { padding-block: clamp(2.25rem, 1.4rem + 3.4vw, 3.75rem); }
+.page-head__inner { padding-block: var(--pad-head); }
 
 .page-head h1 { margin-bottom: .35rem; }
 
@@ -433,9 +458,9 @@ th { color: var(--ink); font-weight: 600; }
 .hero__inner {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 15.5rem;
-  gap: clamp(1.75rem, 1rem + 3vw, 3.5rem);
+  gap: var(--gap-hero);
   align-items: center;
-  padding-block: clamp(2.5rem, 1.5rem + 4vw, 4.5rem);
+  padding-block: var(--pad-hero);
 }
 
 .hero h1 { margin-bottom: .5rem; }
@@ -612,7 +637,7 @@ th { color: var(--ink); font-weight: 600; }
   font-variant-numeric: tabular-nums;
 }
 
-.theme__head h2 { margin: 0; font-size: clamp(1.3rem, 1.1rem + .9vw, 1.6rem); }
+.theme__head h2 { margin: 0; font-size: var(--fs-theme-title); }
 
 .theme__body { max-width: var(--measure); }
 .theme__body > :last-child { margin-bottom: 0; }
@@ -957,7 +982,7 @@ a.pub__title:hover { color: var(--orange-ink); text-decoration: underline; }
 .contact-grid {
   display: grid;
   grid-template-columns: 15rem minmax(0, 1fr);
-  gap: clamp(1.75rem, 1rem + 3vw, 3rem);
+  gap: var(--gap-contact);
   align-items: start;
 }
 

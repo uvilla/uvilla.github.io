@@ -116,6 +116,18 @@ locally, `gem install jekyll` (or add a `Gemfile` with `github-pages`).
 
 - No theme gem. `assets/css/style.scss` is self-contained plain CSS built on
   custom properties.
+- **Careful with `clamp()`.** GitHub Pages compiles this file with Ruby Sass
+  3.7 (`jekyll-sass-converter` 1.5.2), which predates `clamp()`/`min()`/`max()`
+  and tries to *evaluate* arithmetic in function arguments. Writing
+  `font-size: clamp(2rem, 1.35rem + 2.6vw, 3rem)` fails the build with
+  `Incompatible units: 'vw' and 'rem'`. Sass leaves **custom property** values
+  alone, so every fluid value lives in a `--token` in `:root` and is used via
+  `var()`. Keep new fluid values in tokens too.
+  (Switching Pages to a custom Actions workflow with your own `Gemfile` would
+  let you use modern Dart Sass and drop this constraint.)
+- The site keeps the filename `assets/css/style.scss` on purpose: with no
+  `theme:` in `_config.yml`, GitHub Pages falls back to `jekyll-theme-primer`,
+  and a file at that exact path shadows the theme's stylesheet.
 - Light and dark themes, following the OS by default with a manual toggle in
   the header (stored in `localStorage`).
 - Navigation collapses to a CSS-only hamburger below 900px.

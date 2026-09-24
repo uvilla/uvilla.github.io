@@ -89,7 +89,7 @@ by how good the images look.</p>
     <p>Although developed in the context of photoacoustic and ultrasound imaging, these tools
     are modality-agnostic and apply to the assessment of any computed imaging system.</p>
 
-    {% include pub_refs.html keys="LiVillaLiEtAl24, ZhouVillaAnastasio23, KuoGranstedtVillaEtAl22, CraftScopeAnastasioVilla24" %}
+{% include pub_refs.html keys="LiVillaLiEtAl24, ZhouVillaAnastasio23, KuoGranstedtVillaEtAl22, CraftScopeAnastasioVilla24" %}
   </div>
 </section>
 
@@ -117,7 +117,7 @@ by how good the images look.</p>
     be established; and learned forward-model and aberration corrections that remain anchored
     to the underlying physics.</p>
 
-    {% include pub_refs.html keys="LozenskiWangLiEtAl24, CamVillaAnastasio24, CraftsVilla25, LinFengTheilerEtal26" %}
+{% include pub_refs.html keys="LozenskiWangLiEtAl24, CamVillaAnastasio24, CraftsVilla25, LinFengTheilerEtal26" %}
   </div>
 </section>
 
@@ -144,7 +144,7 @@ by how good the images look.</p>
     framework is what allows learned and classical methods to be compared on identical object
     ensembles, at sample sizes sufficient for statistically meaningful conclusions.</p>
 
-    {% include pub_refs.html keys="LiVillaParkEtAl21, ParkVillaLiEtAl23, ParkJeongVillaEtal26, HuangKuoParkEtAl26" %}
+{% include pub_refs.html keys="LiVillaParkEtAl21, ParkVillaLiEtAl23, ParkJeongVillaEtal26, HuangKuoParkEtAl26" %}
   </div>
 </section>
 
@@ -171,7 +171,7 @@ by how good the images look.</p>
     when an apparent deep learning success is recovering real information, and when it is
     supplying a prior.</p>
 
-    {% include pub_refs.html keys="LozenskiAnastasioVilla22, LozenskiCamPagelEtAl24, LiVillaDuricEtAl23, GangwonVillaAnastasio25" %}
+{% include pub_refs.html keys="LozenskiAnastasioVilla22, LozenskiCamPagelEtAl24, LiVillaDuricEtAl23, GangwonVillaAnastasio25" %}
   </div>
 </section>
 
@@ -202,7 +202,7 @@ by how good the images look.</p>
     digital twins with quantified uncertainty for patient-specific decision making),
     geophysics, and glaciology, which has repeatedly sharpened the algorithms.</p>
 
-    {% include pub_refs.html keys="VillaPetraGhattas21, KimVillaParnoEtAl23, OLearyVillaChenEtAl21, PashVillaHormuthEtAl26" %}
+{% include pub_refs.html keys="VillaPetraGhattas21, KimVillaParnoEtAl23, OLearyVillaChenEtAl21, PashVillaHormuthEtAl26" %}
   </div>
 </section>
 
