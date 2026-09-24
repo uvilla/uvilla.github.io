@@ -4,12 +4,15 @@ Personal academic site for Umberto Villa. Jekyll, hosted on GitHub Pages.
 
 ## Updating the publication list
 
-The single source of truth is `material/uvilla.bib` (maintained in JabRef).
+The single source of truth is `files/uvilla.bib` (maintained in JabRef).
 Everything on the Publications page is generated from it:
 
 ```
-material/uvilla.bib  ──scripts/bib2yaml.py──►  _data/publications.yml  ──Liquid──►  publications.html
+files/uvilla.bib  ──scripts/bib2yaml.py──►  _data/publications.yml  ──Liquid──►  publications.html
 ```
+
+`files/` is published, so the bib is also downloadable at
+<https://uvilla.github.io/files/uvilla.bib>.
 
 After editing the `.bib`:
 
@@ -102,6 +105,7 @@ locally, `gem install jekyll` (or add a `Gemfile` with `github-pages`).
 
 | Path | What it is |
 | --- | --- |
+| `files/uvilla.bib` | the publication source of truth (also served as a download) |
 | `_config.yml` | site metadata, affiliations, profile links |
 | `_data/navigation.yml` | top navigation |
 | `_data/publications.yml` | **generated** — do not edit by hand |
@@ -109,7 +113,7 @@ locally, `gem install jekyll` (or add a `Gemfile` with `github-pages`).
 | `_includes/` | `head`, `header`, `footer`, `pub_refs` |
 | `assets/css/style.scss` | the whole design system (plain CSS, no theme gem) |
 | `scripts/bib2yaml.py` | bib → YAML generator |
-| `material/` | working files, excluded from the build |
+| `material/` | drafts and working notes, excluded from the build |
 | `images/optimized/` | web-sized images; originals kept alongside |
 
 ## Design notes

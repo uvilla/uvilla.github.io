@@ -4,7 +4,7 @@ Render a short reference list from _data/publications.yml.
     {% include pub_refs.html keys="KeyA, KeyB, KeyC" %}
     {% include pub_refs.html label="Key products" keys="KeyA, KeyB" %}
 
-Keys are BibTeX cite keys from material/uvilla.bib. An unknown key renders an
+Keys are BibTeX cite keys from files/uvilla.bib. An unknown key renders an
 HTML comment instead of a list item, so a renamed key shows up as a gap rather
 than a broken citation.
 {%- endcomment -%}

@@ -18,10 +18,18 @@ so no Liquid sort here -- sorting would discard the within-year ordering.
 <div class="wrap page-body">
 
   <div class="pub-toolbar">
-    <div class="pub-search">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
-      <label class="visually-hidden" for="pub-q">Search publications</label>
-      <input type="search" id="pub-q" placeholder="Search title, author, or journal…" autocomplete="off">
+    <div class="pub-toolbar__row">
+      <div class="pub-search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <label class="visually-hidden" for="pub-q">Search publications</label>
+        <input type="search" id="pub-q" placeholder="Search title, author, or journal…" autocomplete="off">
+      </div>
+
+      <a class="btn pub-bib" href="{{ '/files/uvilla.bib' | relative_url }}" download
+         title="The complete BibTeX database, including conference papers, datasets and preprints">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+        Download BibTeX
+      </a>
     </div>
 
     <ul class="chips" id="pub-chips">

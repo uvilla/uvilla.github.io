@@ -720,10 +720,25 @@ th { color: var(--ink); font-weight: 600; }
   .pub-toolbar { background: var(--bg); }
 }
 
+.pub-toolbar__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .6rem;
+  margin-bottom: .75rem;
+}
+
 .pub-search {
   position: relative;
+  flex: 1 1 17rem;
   max-width: 26rem;
-  margin-bottom: .75rem;
+}
+
+.pub-bib { flex: none; }
+
+@media (max-width: 460px) {
+  .pub-search { max-width: none; }
+  .pub-bib { width: 100%; justify-content: center; }
 }
 
 .pub-search input {
