@@ -58,14 +58,20 @@ or more comma-separated slugs:
 
 | Slug | Topic |
 | --- | --- |
-| `pact` | Photoacoustic Computed Tomography |
-| `usct` | Ultrasound Computed Tomography |
+| `vi` | Virtual imaging studies |
+| `pact` | Photoacoustic computed tomography |
+| `usct` | Ultrasound computed tomography |
 | `iqa` | Image quality assessment |
 | `dlirm` | Deep learning-based image reconstruction |
-| `ipuq` | Inverse problems, Uncertainty Quantification, Digital Twins |
-| `amg` | Preconditioners, Multigrid and numerical upscaling |
-| `cfd` | Computational Fluid Dynamics |
-| `health` | Data Science for Public Health |
+| `ipuq` | Inverse problems, uncertainty quantification, digital twins |
+| `amg` | Preconditioners, multigrid and numerical upscaling |
+| `cfd` | Computational fluid dynamics |
+| `health` | Data science for public health |
+
+This table mirrors `TOPICS` in `scripts/bib2yaml.py`, which is the single
+place to edit. Adding a slug there (and using it in the `.bib`) is all that is
+needed — the filter chips, the tags on each entry, and their ordering all come
+from it.
 
 The order of `TOPICS` in `scripts/bib2yaml.py` sets both the order of the
 filter chips and the order of tags on each entry; edit it there to add or

@@ -50,14 +50,15 @@ ME_PATTERNS = [
 # ---------------------------------------------------------------------------
 
 TOPICS = OrderedDict([
-    ("pact", "Photoacoustic Computed Tomography"),
-    ("usct", "Ultrasound Computed Tomography"),
+    ("vi", "Virtual imaging studies"),
+    ("pact", "Photoacoustic computed tomography"),
+    ("usct", "Ultrasound computed tomography"),
     ("iqa", "Image quality assessment"),
     ("dlirm", "Deep learning-based image reconstruction"),
-    ("ipuq", "Inverse problems, Uncertainty Quantification, Digital Twins"),
-    ("amg", "Preconditioners, Multigrid and numerical upscaling"),
-    ("cfd", "Computational Fluid Dynamics"),
-    ("health", "Data Science for Public Health"),
+    ("ipuq", "Inverse problems, uncertainty quantification, digital twins"),
+    ("amg", "Preconditioners, multigrid and numerical upscaling"),
+    ("cfd", "Computational fluid dynamics"),
+    ("health", "Data science for public health"),
 ])
 
 # ---------------------------------------------------------------------------
