@@ -1,3 +1,10 @@
+# Generated from files/uvilla.bib by scripts/bib2yaml.py, on every Pages build.
+# Run `make pubs` before serving locally.
+_data/publications.yml
+bib2yaml.log
+__pycache__/
+*.pyc
+
 _site/
 .jekyll-cache/
 .jekyll-metadata

@@ -1,0 +1,85 @@
+name: Build and deploy site
+
+# Replaces GitHub's built-in "pages-build-deployment" pipeline so that the
+# publication data can be regenerated from files/uvilla.bib *before* Jekyll
+# runs. Editing the .bib and pushing is therefore all that is needed to update
+# the publications page -- no local `make pubs`, no committed generated file.
+#
+# REQUIRES: Settings -> Pages -> Build and deployment -> Source: "GitHub Actions".
+# While the source is still "Deploy from a branch", the deploy job below fails.
+
+on:
+  push:
+    branches: [master]
+  # Lets you re-deploy from the Actions tab without pushing a commit.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Let a running deploy finish rather than cancelling it half-way.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v7
+
+      # No setup-python step: ubuntu-latest ships Python 3, and
+      # scripts/bib2yaml.py deliberately uses only the standard library.
+      - name: Generate _data/publications.yml from files/uvilla.bib
+        run: |
+          # pipefail, so a crash in bib2yaml.py is not masked by tee succeeding.
+          set -o pipefail
+          python3 --version
+          # --min-articles guards against a truncated or corrupted .bib: the
+          # parser is lenient by design and would otherwise deploy an almost
+          # empty publication list without complaining.
+          python3 scripts/bib2yaml.py --min-articles 60 | tee bib2yaml.log
+          if [ ! -s _data/publications.yml ]; then
+            echo "::error::bib2yaml.py produced no output"
+            exit 1
+          fi
+
+      # Surface the entry counts and any data problems on the run summary page,
+      # so a missing DOI or classification is visible without opening the log.
+      - name: Report bib status
+        if: always()
+        run: |
+          {
+            echo '### Publication data'
+            echo
+            echo '```'
+            cat bib2yaml.log 2>/dev/null || echo '(bib2yaml.py did not run)'
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          # Warn, but never fail the build, on entries that need attention.
+          grep -E '^  ! ' bib2yaml.log 2>/dev/null | while read -r line; do
+            echo "::warning::${line#  ! }"
+          done || true
+
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

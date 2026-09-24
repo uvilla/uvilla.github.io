@@ -628,6 +628,12 @@ def main():
     ap.add_argument("--out", default=DEFAULT_OUT)
     ap.add_argument("--check", action="store_true",
                     help="report problems and write nothing")
+    ap.add_argument("--min-articles", type=int, default=0, metavar="N",
+                    help="exit non-zero if fewer than N journal articles were "
+                         "parsed. The parser is deliberately lenient, so a "
+                         "truncated or malformed .bib yields a nearly empty "
+                         "list rather than an error; this floor turns that "
+                         "into a loud failure in CI.")
     args = ap.parse_args()
 
     with open(args.bib, encoding="utf-8") as fh:
@@ -693,6 +699,15 @@ def main():
         print("\n%d item(s) to check:" % len(problems))
         for p in problems:
             print("  ! " + p)
+
+    # Sanity floor. Nothing is written when it trips, so a bad .bib cannot
+    # replace a good publications.yml with an empty one.
+    if args.min_articles and counts["article"] < args.min_articles:
+        print("\nERROR: parsed only %d journal articles, expected at least %d."
+              % (counts["article"], args.min_articles))
+        print("       %s is probably truncated or malformed. Nothing written."
+              % os.path.relpath(args.bib, ROOT))
+        return 2
 
     if args.check:
         return 0

@@ -14,13 +14,17 @@ files/uvilla.bib  ──scripts/bib2yaml.py──►  _data/publications.yml  �
 `files/` is published, so the bib is also downloadable at
 <https://uvilla.github.io/files/uvilla.bib>.
 
-After editing the `.bib`:
+**On GitHub, this is automatic**: `.github/workflows/pages.yml` regenerates
+`_data/publications.yml` on every push, before Jekyll runs. Edit the `.bib`,
+push, and the publications page updates — nothing else to do.
+
+`_data/publications.yml` is therefore *generated, not committed* (it is in
+`.gitignore`). Build it locally before serving:
 
 ```sh
 make pubs          # or: python3 scripts/bib2yaml.py
+make serve         # runs `make pubs` first
 ```
-
-Then commit both the `.bib` and the regenerated `_data/publications.yml`.
 
 `make check` parses the bib and reports problems (missing years, missing
 journal names, articles with no `classification`, unrecognised topic slugs,
@@ -92,6 +96,29 @@ Reference lists on the Research page come from the same data, by cite key:
 An unknown key renders an HTML comment rather than a broken citation, so a
 renamed key shows up as a gap.
 
+## Deployment
+
+`.github/workflows/pages.yml` replaces GitHub's built-in
+`pages-build-deployment` pipeline, so that the bib can be turned into
+`_data/publications.yml` *before* Jekyll runs:
+
+```
+push  ─►  bib2yaml.py  ─►  jekyll-build-pages  ─►  deploy-pages
+```
+
+**One-time setup:** Settings → Pages → Build and deployment → Source →
+**GitHub Actions**. While the source is still "Deploy from a branch", the
+`deploy` job fails (the build job still runs and reports).
+
+The run summary for each deploy shows the entry counts per topic, and any
+entry needing attention is raised as a job warning — so a missing DOI or
+`classification` is visible from the Actions tab without opening the log.
+
+The generate step passes `--min-articles 60`. The bib parser is deliberately
+lenient, so a truncated or malformed `.bib` would otherwise produce a nearly
+empty publication list and deploy it without complaint; below that floor the
+script writes nothing and fails the build instead.
+
 ## Local development
 
 ```sh
@@ -108,7 +135,8 @@ locally, `gem install jekyll` (or add a `Gemfile` with `github-pages`).
 | `files/uvilla.bib` | the publication source of truth (also served as a download) |
 | `_config.yml` | site metadata, affiliations, profile links |
 | `_data/navigation.yml` | top navigation |
-| `_data/publications.yml` | **generated** — do not edit by hand |
+| `_data/publications.yml` | **generated, gitignored** — built on every deploy |
+| `.github/workflows/pages.yml` | regenerate → build → deploy |
 | `_layouts/` | `base`, `default` (page + header band), `home` (hero), `wide` |
 | `_includes/` | `head`, `header`, `footer`, `pub_refs` |
 | `assets/css/style.scss` | the whole design system (plain CSS, no theme gem) |
