@@ -29,6 +29,7 @@ subtitle: >-
     for Bayesian inference with complex predictive models under uncertainty.</p>
     <p class="btn-row">
       <a class="btn" href="https://doi.org/10.1145/3580278" target="_blank" rel="noopener">Paper</a>
+      <a class="btn" href="https://github.com/hippylib/hippylib2muq" target="_blank" rel="noopener">GitHub</a>
     </p>
   </li>
 
@@ -36,7 +37,10 @@ subtitle: >-
     <h3>SOUPy</h3>
     <p>Stochastic PDE-constrained optimization under high-dimensional uncertainty, in Python.
     Built on hIPPYlib and FEniCS.</p>
-    <!-- TODO: add the SOUPy repository link (and a DOI for the JOSS paper in the .bib). -->
+    <p class="btn-row">
+      <a class="btn" href="https://doi.org/10.21105/joss.06101" target="_blank" rel="noopener">Paper</a>
+      <a class="btn" href="https://github.com/hippylib/soupy" target="_blank" rel="noopener">GitHub</a>
+    </p>  
   </li>
 
   <li class="card">
@@ -60,23 +64,4 @@ subtitle: >-
     </p>
   </li>
 
-  <li class="card">
-    <h3>LifeV</h3>
-    <p>A parallel finite element library with a strong focus on computational fluid dynamics,
-    using Trilinos as its linear algebra back end.</p>
-    <p style="font-size:.85rem;color:var(--muted)">CMCS–EPFL · E(CM)² – Emory · MOX – Polimi ·
-    REO &amp; ESTIME – INRIA</p>
-    <p class="btn-row">
-      <a class="btn" href="http://lifev.org" target="_blank" rel="noopener">Website</a>
-    </p>
-  </li>
-
-  <li class="card">
-    <h3>tMINRES</h3>
-    <p>An efficient, portable C++ implementation of the MINRES algorithm, supporting
-    user-defined parallel and serial data structures for vectors, operators, and
-    preconditioners. Developed during my Ph.D. at Emory in collaboration with
-    <a href="http://web.stanford.edu/group/SOL/software/minres/" target="_blank" rel="noopener">Prof. Saunders</a>.</p>
-    <!-- The old Google Code URL is dead; add the current repository link here. -->
-  </li>
 </ul>
