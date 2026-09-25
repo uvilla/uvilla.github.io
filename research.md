@@ -167,9 +167,9 @@ by how good the images look.</p>
     self-supervised representation for spatiotemporal reconstruction; spatiotemporal methods
     that enable high-frame-rate dynamic photoacoustic imaging from sparse rotating-gantry
     measurements; and rigorous analysis of the identifiability limits of joint estimation
-    problems. That last line matters for everything above: identifiability analysis tells us
+    problems. <!--That last line matters for everything above: identifiability analysis tells us
     when an apparent deep learning success is recovering real information, and when it is
-    supplying a prior.</p>
+    supplying a prior.--></p>
 
 {% include pub_refs.html keys="LozenskiAnastasioVilla22, LozenskiCamPagelEtAl24, LiVillaDuricEtAl23, GangwonVillaAnastasio25" %}
   </div>
