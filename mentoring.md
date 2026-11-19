@@ -36,7 +36,7 @@ subtitle: >-
 ### PhD students co-advised (formally or informally):
 - Kevin Huang: 2026, Ph.D. in [Bioengineering](https://bioengineering.illinois.edu/) at UIUC: *Advance Image Reconstruction in Transcranial Photoacoustic Computed Tomography* (Advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu))
 - Refik Cam: 2026, Ph.D.  in [Electrical and Computer Engineering](https://ece.illinois.edu/) at UIUC: *Dynamic Imaging using Photoacoustic Tomography* (Advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu))
-- Gangwon Jeong: 2025, Ph.D. [Bioengineering](https://bioengineering.illinois.edu/) at UIUC: *Accurate Breast Imaging in Photoacoustic Computed Tomography Enabled by Acoustic Property Estimation in Heterogeneous Media*(Advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu))
+<!-- - Gangwon Jeong: 2025, Ph.D. [Bioengineering](https://bioengineering.illinois.edu/) at UIUC: *Accurate Breast Imaging in Photoacoustic Computed Tomography Enabled by Acoustic Property Estimation in Heterogeneous Media*(Advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu)) -->
 - Fu Li: 2024, Ph.D. in [Bioengineering](https://bioengineering.illinois.edu/) at UIUC: [*Three-dimensional image reconstruction in breast ultrasound computed tomography*](https://hdl.handle.net/2142/129556) (Advisor: Dr. [Anastasio](https://anastasio.bioengineering.illinois.edu)). Now Software Engineer at [Pony AI](https://pony.ai/)
 
 
